@@ -4,7 +4,9 @@
 
 主控暂以 STM32G431RBI6 为候选，后续可能更换，替代型号未定。项目目前处于方案设计阶段，原理图、PCB 和固件工程尚未纳入仓库。
 
-更新日期：2026-10-22。已同步本轮外围与 3S 充电讨论；完整状态以决策表为准。IMU 为 ICM-42670-P，每电机双电阻，PWM 按两电机总计 6 路预算。充电首选 IP2326，独立 BMS 与最终 MCU 未选定。\n\n## 当前方案
+更新日期：2026-10-23。已同步本轮外围与 3S 充电讨论；完整状态以决策表为准。IMU 为 ICM-42670-P，每电机双电阻，PWM 按两电机总计 6 路预算。充电采用 IP2326；首版不做板载均衡，但保留逐节保护。独立保护芯片与最终 MCU 未选定。Buck 主选 TPS563201DDCR，TPS562201DDCR 备选，输出和外围待确定。
+
+## 当前方案
 
 | 分类 | 文档 | 内容 |
 | --- | --- | --- |
@@ -12,7 +14,8 @@
 | 决策状态 | [当前选型状态](docs/project/decisions.md) | 已确定、候选和待验证事项 |
 | 硬件选型 | [主控、驱动与传感器](docs/hardware/component-selection.md) | 当前器件方案及选型约束 |
 | 接口采样 | [接口与采样预算](docs/hardware/interface-budget.md) | IO、PWM、ADC 与总线要求 |
-| 充电选型 | [IP2326 与 CN3303 对照](docs/hardware/charging-comparison.md) | 规格、采购档位、商业产品证据、USB 手动充电与 BMS 边界 |\n| 电源结构 | [电源、机械与标定](docs/hardware/power-mechanics.md) | 电池、Buck、回生和安装规划 |
+| 充电选型 | [IP2326 与 CN3303 对照](docs/hardware/charging-comparison.md) | 规格、采购档位、商业产品证据、USB 手动充电与 BMS 边界 |
+| 电源结构 | [电源、机械与标定](docs/hardware/power-mechanics.md) | 电池、Buck、回生和安装规划 |
 | 控制验证 | [控制与分阶段验证](docs/development/control-validation.md) | 软件路线、故障流程和验证步骤 |
 | 开发环境 | [云端开发环境](docs/development/cloud-environment.md) | 当前工具和构建条件 |
 | 待定事项 | [待确认清单](docs/project/information-needed.md) | 需要继续讨论的问题与工程资料 |
