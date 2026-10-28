@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1250" viewBox="0 0 1600 1250">
+<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#52657a"/></marker></defs>
+<rect width="1600" height="1250" fill="#f6f8fc"/>
+<text x="45" y="44" text-anchor="start" font-family="Microsoft YaHei,Arial,sans-serif" font-size="30" fill="#20334c">
+<tspan x="45" dy="0">桌面双轮平衡车 · 系统电源树</tspan>
+</text>
+<text x="45" y="80" text-anchor="start" font-family="Microsoft YaHei,Arial,sans-serif" font-size="17" fill="#20334c">
+<tspan x="45" dy="0">2026-10-26 ｜ 扩展板主板5 V取电、USB核心供电与VCOM、长按整机开关已确认；器件接线待设计</tspan>
+</text>
+<rect x="260" y="110" width="900" height="1000" rx="12" fill="#eef5ff" stroke="#4e86c7" stroke-width="2"/>
+<text x="710.0" y="629.0" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" font-size="18" fill="#20334c">
+</text>
+<text x="285" y="148" text-anchor="start" font-family="Microsoft YaHei,Arial,sans-serif" font-size="23" fill="#326497">
+<tspan x="285" dy="0">主板 MAIN PCB</tspan>
+</text>
+<rect x="1220" y="700" width="340" height="365" rx="12" fill="#fff6e8" stroke="#d99236" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="1390.0" y="901.5" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" font-size="18" fill="#20334c">
+</text>
+<text x="1390" y="738" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" font-size="22" fill="#9d641e">
+<tspan x="1390" dy="0">可选 ESP32 扩展板</tspan>
+</text>
+<rect x="20" y="180" width="200" height="100" rx="12" fill="#fff" stroke="#92a6bb" stroke-width="2"/>
+<text x="120.0" y="223.0" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" font-size="18" fill="#20334c">
+<tspan x="120.0" dy="0">3S 电池组</tspan>
+<tspan x="120.0" dy="27">电芯 / 逐节采样</tspan>
+</text>
+<rect x="20" y="520" width="200" height="100" rx="12" fill="#fff" stroke="#92a6bb" stroke-width="2"/>
+<text x="120.0" y="563.0" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" font-size="18" fill="#20334c">
+<tspan x="120.0" dy="0">USB Type-C</tspan>
+<tspan x="120.0" dy="27">VBUS 5 V / 数据</tspan>
+</text>
+<rect x="300" y="180" width="320" height="90" rx="12" fill="#fff" stroke="#92a6bb" stroke-width="2"/>
+<text x="460.0" y="218.0" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" font-size="18" fill="#20334c">
+<tspan x="460.0" dy="0">CW1244ALBS 保护 / 均衡</tspan>
+<tspan x="460.0" dy="27">具体功率路径待核实</tspan>
+</text>
+<rect x="760" y="180" width="350" height="90" rx="12" fill="#fff" stroke="#92a6bb" stroke-width="2"/>
+<text x="935.0" y="218.0" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" font-size="18" fill="#20334c">
+<tspan x="935.0" dy="0">独立电源键 / 长按总开关</tspan>
+<tspan x="935.0" dy="27">供电锁存与软启动电路待设计</tspan>
+</text>
+<rect x="300" y="310" width="320" height="80" rx="12" fill="#fff" stroke="#92a6bb" stroke-width="2"/>
+<text x="460.0" y="343.0" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" font-size="18" fill="#20334c">
+<tspan x="460.0" dy="0">VM_BUS</tspan>
+<tspan x="460.0" dy="27">软开关后的电机侧运行母线</tspan>
+</text>
+<rect x="760" y="310" width="350" height="80" rx="12" fill="#fff" stroke="#92a6bb" stroke-width="2"/>
+<text x="935.0" y="343.0" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" font-size="18" fill="#20334c">
+<tspan x="935.0" dy="0">双 DRV8323S＋两路功率桥</tspan>
+<tspan x="935.0" dy="27">左右电机供电</tspan>
+</text>
+<rect x="760" y="440" width="350" height="80" rx="12" fill="#fff" stroke="#92a6bb" stroke-width="2"/>
+<text x="935.0" y="473.0" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" font-size="18" fill="#20334c">
+<tspan x="935.0" dy="0">共用制动电阻＋低侧 N-MOS</tspan>
+<tspan x="935.0" dy="27">回生耗能支路</tspan>
+</text>
+<rect x="300" y="440" width="320" height="80" rx="12" fill="#fff" stroke="#92a6bb" stroke-width="2"/>
+<text x="460.0" y="473.0" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" font-size="18" fill="#20334c">
+<tspan x="460.0" dy="0">主板 TPS563201</tspan>
+<tspan x="460.0" dy="27">VM_BUS → 5V_BUS</tspan>
+</text>
+<rect x="760" y="570" width="350" height="80" rx="12" fill="#fff" stroke="#92a6bb" stroke-width="2"/>
+<text x="935.0" y="603.0" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" font-size="18" fill="#20334c">
+<tspan x="935.0" dy="0">比较器＋基准＋迟滞</tspan>
+<tspan x="935.0" dy="27">由 5V_BUS 供电 / 器件待定</tspan>
+</text>
+<rect x="300" y="570" width="320" height="80" rx="12" fill="#fff" stroke="#92a6bb" stroke-width="2"/>
+<text x="460.0" y="603.0" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" font-size="18" fill="#20334c">
+<tspan x="460.0" dy="0">电源选择＋反向隔离</tspan>
+<tspan x="460.0" dy="27">建议新增 / 器件待定</tspan>
+</text>
+<rect x="35" y="700" width="180" height="90" rx="12" fill="#fff" stroke="#92a6bb" stroke-width="2"/>
+<text x="125.0" y="738.0" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" font-size="17" fill="#20334c">
+<tspan x="125.0" dy="0">USB 输入限流</tspan>
+<tspan x="125.0" dy="27">及防倒灌 / 待定</tspan>
+</text>
+<rect x="35" y="860" width="180" height="90" rx="12" fill="#fff" stroke="#92a6bb" stroke-width="2"/>
+<text x="125.0" y="898.0" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" font-size="17" fill="#20334c">
+<tspan x="125.0" dy="0">IP2326</tspan>
+<tspan x="125.0" dy="27">5 V → 3S充电</tspan>
+</text>
+<rect x="300" y="700" width="320" height="70" rx="12" fill="#fff" stroke="#92a6bb" stroke-width="2"/>
+<text x="460.0" y="741.0" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" font-size="18" fill="#20334c">
+<tspan x="460.0" dy="0">5V_SYS：系统逻辑电源</tspan>
+</text>
+<rect x="300" y="820" width="320" height="80" rx="12" fill="#fff" stroke="#92a6bb" stroke-width="2"/>
+<text x="460.0" y="853.0" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" font-size="18" fill="#20334c">
+<tspan x="460.0" dy="0">LDO → 3V3_MAIN</tspan>
+<tspan x="460.0" dy="27">ME6211 拟选 / 热核算待完成</tspan>
+</text>
+<rect x="300" y="960" width="320" height="90" rx="12" fill="#fff" stroke="#92a6bb" stroke-width="2"/>
+<text x="460.0" y="998.0" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" font-size="18" fill="#20334c">
+<tspan x="460.0" dy="0">MCU / IMU / 主板逻辑</tspan>
+<tspan x="460.0" dy="27">编码器板×2及外围按实际供电计</tspan>
+</text>
+<rect x="760" y="700" width="350" height="70" rx="12" fill="#fff" stroke="#92a6bb" stroke-width="2"/>
+<text x="935.0" y="728.0" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" font-size="17" fill="#20334c">
+<tspan x="935.0" dy="0">WS2812×4：5 V供电</tspan>
+<tspan x="935.0" dy="27">数据电平转换建议</tspan>
+</text>
+<rect x="760" y="930" width="350" height="90" rx="12" fill="#fff" stroke="#92a6bb" stroke-width="2"/>
+<text x="935.0" y="968.0" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" font-size="18" fill="#20334c">
+<tspan x="935.0" dy="0">主控 UART TX / RX</tspan>
+<tspan x="935.0" dy="27">与扩展板通信（3.3 V逻辑）</tspan>
+</text>
+<rect x="1250" y="785" width="280" height="80" rx="12" fill="#fff" stroke="#92a6bb" stroke-width="2"/>
+<text x="1390.0" y="818.0" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" font-size="18" fill="#20334c">
+<tspan x="1390.0" dy="0">独立 TPS563201</tspan>
+<tspan x="1390.0" dy="27">主板5 V输入 → 3V3_ESP</tspan>
+</text>
+<rect x="1250" y="930" width="280" height="90" rx="12" fill="#fff" stroke="#92a6bb" stroke-width="2"/>
+<text x="1390.0" y="968.0" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" font-size="18" fill="#20334c">
+<tspan x="1390.0" dy="0">ESP32-S3-WROOM-1</tspan>
+<tspan x="1390.0" dy="27">N16R8 / 独立3.3 V供电</tspan>
+</text>
+<polyline points="220,225 300,225" fill="none" stroke="#52657a" stroke-width="2.5" marker-end="url(#arrow)"/>
+<polyline points="620,225 760,225" fill="none" stroke="#52657a" stroke-width="2.5" marker-end="url(#arrow)"/>
+<polyline points="935,270 935,290 680,290 680,350 620,350" fill="none" stroke="#52657a" stroke-width="2.5" marker-end="url(#arrow)"/>
+<polyline points="620,350 760,350" fill="none" stroke="#52657a" stroke-width="2.5" marker-end="url(#arrow)"/>
+<polyline points="700,350 700,480 760,480" fill="none" stroke="#52657a" stroke-width="2.5" marker-end="url(#arrow)"/>
+<polyline points="460,390 460,440" fill="none" stroke="#52657a" stroke-width="2.5" marker-end="url(#arrow)"/>
+<polyline points="620,480 660,480 660,610 760,610" fill="none" stroke="#52657a" stroke-width="2.5" marker-end="url(#arrow)"/>
+<polyline points="935,570 935,520" fill="none" stroke="#52657a" stroke-width="2.5" marker-end="url(#arrow)" stroke-dasharray="7 5"/>
+<text x="1020" y="551" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" font-size="15" fill="#52657a">
+<tspan x="1020" dy="0">硬件栅极控制</tspan>
+</text>
+<polyline points="460,520 460,570" fill="none" stroke="#52657a" stroke-width="2.5" marker-end="url(#arrow)"/>
+<polyline points="125,620 125,700" fill="none" stroke="#52657a" stroke-width="2.5" marker-end="url(#arrow)"/>
+<polyline points="215,745 240,745 240,610 300,610" fill="none" stroke="#52657a" stroke-width="2.5" marker-end="url(#arrow)"/>
+<polyline points="125,790 125,860" fill="none" stroke="#52657a" stroke-width="2.5" marker-end="url(#arrow)"/>
+<polyline points="125,950 125,1080 280,1080 280,290 460,290 460,270" fill="none" stroke="#52657a" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="540" y="1090" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" font-size="15" fill="#52657a">
+<tspan x="540" dy="0">充电经受保护端口返回；接法待核实</tspan>
+</text>
+<polyline points="460,650 460,700" fill="none" stroke="#52657a" stroke-width="2.5" marker-end="url(#arrow)"/>
+<polyline points="460,770 460,820" fill="none" stroke="#52657a" stroke-width="2.5" marker-end="url(#arrow)"/>
+<polyline points="460,900 460,960" fill="none" stroke="#52657a" stroke-width="2.5" marker-end="url(#arrow)"/>
+<polyline points="620,735 760,735" fill="none" stroke="#52657a" stroke-width="2.5" marker-end="url(#arrow)"/>
+<polyline points="700,735 700,790 1185,790 1185,825 1250,825" fill="none" stroke="#52657a" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="1340" y="676" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" font-size="15" fill="#52657a">
+<tspan x="1340" dy="0">板间5 V：配对连接器，已确认</tspan>
+</text>
+<polyline points="1390,865 1390,930" fill="none" stroke="#52657a" stroke-width="2.5" marker-end="url(#arrow)"/>
+<polyline points="1110,975 1250,975" fill="none" stroke="#4f8c73" stroke-width="2.5" marker-end="url(#arrow)" stroke-dasharray="7 5"/>
+<text x="1180" y="960" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" font-size="15" fill="#4f8c73">
+<tspan x="1180" dy="0">TX / RX</tspan>
+</text>
+<text x="1390" y="1045" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" font-size="16" fill="#9d641e">
+<tspan x="1390" dy="0">GND：与主板系统地共地</tspan>
+</text>
+<text x="1390" y="1092" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" font-size="13" fill="#20334c">
+<tspan x="1390" dy="0">扩展侧 HC-PBB08-2-16-M-</tspan>
+</text>
+<text x="1390" y="1112" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" font-size="13" fill="#20334c">
+<tspan x="1390" dy="0">H1.0-G1-R-P-04</tspan>
+</text>
+<text x="280" y="1145" text-anchor="start" font-family="Microsoft YaHei,Arial,sans-serif" font-size="18" fill="#20334c">
+<tspan x="280" dy="0">USB：VCOM、核心5 V与OLED正常；无电池禁电机，充电禁电机。</tspan>
+</text>
+<text x="280" y="1177" text-anchor="start" font-family="Microsoft YaHei,Arial,sans-serif" font-size="17" fill="#20334c">
+<tspan x="280" dy="0">3V3_MAIN 与 3V3_ESP 不并联；图中 GND 回流未展开，BMS 端口接法仍须按完整资料审查。</tspan>
+</text>
+<text x="280" y="1208" text-anchor="start" font-family="Microsoft YaHei,Arial,sans-serif" font-size="17" fill="#20334c">
+<tspan x="280" dy="0">仅电池长按开机后自检通过自动平衡；有电池＋USB默认禁平衡，调试菜单可手动使能。</tspan>
+</text>
+</svg>
