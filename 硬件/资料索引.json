@@ -143,12 +143,78 @@
       "url": "https://www.ti.com/lit/ds/symlink/sn74lv1t125.pdf",
       "pages": 26,
       "sha256": "17c3db37ec5c91981d7b0f6746ccb7529cbee0f8e3470e7668e98a9caa093126"
+    },
+    {
+      "name": "tps54231",
+      "url": "https://www.ti.com/lit/ds/symlink/tps54231.pdf",
+      "pages": 35,
+      "sha256": "401b0451b9771a05dedfd685ddfafa0679cc45fb7e390f6d8e47770384d5b88f"
+    },
+    {
+      "name": "tps54331",
+      "url": "https://www.ti.com/lit/ds/symlink/tps54331.pdf",
+      "pages": 41,
+      "sha256": "cf72dfd0ac69eec645b7b493de628dc1c3aa66f5f925a2ea9be6bb5c38260730"
+    },
+    {
+      "name": "lmr33630",
+      "url": "https://www.ti.com/lit/ds/symlink/lmr33630.pdf",
+      "pages": 60,
+      "sha256": "3b0920a4e56a0b3f5f214a6317d3c06cff6e541e5054024adc31c30acc50c04a"
+    },
+    {
+      "name": "lmr36510",
+      "url": "https://www.ti.com/lit/ds/symlink/lmr36510.pdf",
+      "pages": 40,
+      "sha256": "b830fca7fd784402dc9654538a6fa19585ecc37a967697d67f08b49843177476"
+    },
+    {
+      "name": "lmr14030",
+      "url": "https://www.ti.com/lit/ds/symlink/lmr14030.pdf",
+      "pages": 36,
+      "sha256": "fc9e9d63a240e02772b406ec7ce33d1782bb51169341417ca50091f5d666d3d4"
+    },
+    {
+      "name": "lmr50410",
+      "url": "https://www.ti.com/lit/ds/symlink/lmr50410.pdf",
+      "pages": 35,
+      "sha256": "4770812b189b095fc83fa705cf3e1671edd8b262a1b0c7251a2bdf6b29a446a9"
+    },
+    {
+      "name": "tps62933",
+      "url": "https://www.ti.com/lit/ds/symlink/tps62933.pdf",
+      "pages": 51,
+      "sha256": "16ec2eac43c7374eb9e7edd7df7bdb24de6862f695e1582c68716ced4820e5f6"
+    },
+    {
+      "name": "ap63203",
+      "url": "https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf",
+      "pages": 18,
+      "sha256": "ef99daa3789d835bc025dfcb4c605c5c2e6d3e7223e86d40b33e6b497ea5a722"
+    },
+    {
+      "name": "ap63300",
+      "url": "https://www.diodes.com/assets/Datasheets/AP63300-AP63301.pdf",
+      "pages": 22,
+      "sha256": "340ed01139a0147f2e67b786afa4ecd0c7dfde7979f1efcc0383ede7a0848e10"
+    },
+    {
+      "name": "ap64350",
+      "url": "https://www.diodes.com/assets/Datasheets/AP64350.pdf",
+      "pages": 25,
+      "sha256": "bb9aa134375fc5b87433141e477aff20aee1a8766d922c6d9b9ace1f56539f48"
     }
   ],
   "procurement_status": {
     "TPS62822DLCR": "electrical candidate only; current small-quantity price/stock not verified",
     "TPS62823DLCR": "electrical candidate only; current small-quantity price/stock not verified",
-    "AP63203WU-7": "not admitted as a candidate in this round: datasheet request returned 403; price/stock not verified",
-    "SN74LV1T125DBVR": "electrical comparison candidate; price/stock not verified"
+    "AP63203WU-7": "manufacturer datasheet verified; electrical candidate only; current small-quantity price/stock not verified",
+    "SN74LV1T125DBVR": "electrical comparison candidate; price/stock not verified",
+    "AP63200WU-7": "manufacturer datasheet verified; electrical candidate only; current small-quantity price/stock not verified",
+    "AP63300WU-7": "manufacturer datasheet verified; electrical candidate only; current small-quantity price/stock not verified",
+    "AP64350SP-13": "manufacturer datasheet verified; electrical candidate only; current small-quantity price/stock not verified",
+    "TPS62933DRLR": "manufacturer datasheet verified; electrical candidate only; current small-quantity price/stock not verified",
+    "LMR33630ADDAR": "manufacturer datasheet verified; electrical candidate only; current small-quantity price/stock not verified",
+    "TPS54331DDAR": "manufacturer datasheet verified; electrical candidate only; current small-quantity price/stock not verified"
   }
 }
