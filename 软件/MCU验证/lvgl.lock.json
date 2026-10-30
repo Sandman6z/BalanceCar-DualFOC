@@ -1,0 +1,2594 @@
+{
+  "tag": "v9.2.2",
+  "tree_sha": "7f07a129e8d77f4984fff8e623fd5be18ff42e74",
+  "files": [
+    {
+      "path": "LICENCE.txt",
+      "git_blob_sha1": "f877abb1827c83b9b42171b103be1481deeb0637"
+    },
+    {
+      "path": "lv_version.h",
+      "git_blob_sha1": "5767c66c5d787cce3b9435fb5500fb9b2970cb77"
+    },
+    {
+      "path": "lvgl.h",
+      "git_blob_sha1": "df6140e29a8af35cd3e2ad3cd86b67fc6cd5594e"
+    },
+    {
+      "path": "src/core/lv_global.h",
+      "git_blob_sha1": "c106e4f507fe0e8d7e939bcc1113a7c67e135bc2"
+    },
+    {
+      "path": "src/core/lv_group.c",
+      "git_blob_sha1": "d1cdb317665adfdea0389b9c83216edd89e72f4c"
+    },
+    {
+      "path": "src/core/lv_group.h",
+      "git_blob_sha1": "e5f267d0044b38dc6a10f06beac0a18c45baac04"
+    },
+    {
+      "path": "src/core/lv_group_private.h",
+      "git_blob_sha1": "33b7640c7b11501e45234bbd8103a9f6b3152279"
+    },
+    {
+      "path": "src/core/lv_obj.c",
+      "git_blob_sha1": "c58e955025dd7a88b6f901e856f87c79afbc867d"
+    },
+    {
+      "path": "src/core/lv_obj.h",
+      "git_blob_sha1": "4ae648ffcbd23a9d5b59aea81fefd5ee36e0a421"
+    },
+    {
+      "path": "src/core/lv_obj_class.c",
+      "git_blob_sha1": "cb5a396b06f27e04db922ca3a9196499c99ff043"
+    },
+    {
+      "path": "src/core/lv_obj_class.h",
+      "git_blob_sha1": "4c3bdcb248f6e7ce6805463dab0a6432f8c0f6b5"
+    },
+    {
+      "path": "src/core/lv_obj_class_private.h",
+      "git_blob_sha1": "1279b9caf9223b0ea5e622a30c2f1db14bb41226"
+    },
+    {
+      "path": "src/core/lv_obj_draw.c",
+      "git_blob_sha1": "b3694b9e5fdf1725ac9a4a957b03125db7d82364"
+    },
+    {
+      "path": "src/core/lv_obj_draw.h",
+      "git_blob_sha1": "c0dbee43117717513decdf891df970f15b4b491c"
+    },
+    {
+      "path": "src/core/lv_obj_draw_private.h",
+      "git_blob_sha1": "36c8bff96699df65b9fdd912adace4155efbd2c3"
+    },
+    {
+      "path": "src/core/lv_obj_event.c",
+      "git_blob_sha1": "3831feeb5613c4887ee441bf8a6525185603f61b"
+    },
+    {
+      "path": "src/core/lv_obj_event.h",
+      "git_blob_sha1": "2035f176528a58045c7d239dc08f2f9747a9e228"
+    },
+    {
+      "path": "src/core/lv_obj_event_private.h",
+      "git_blob_sha1": "731d3324869eded97392288f3e0ccc8aa3987e21"
+    },
+    {
+      "path": "src/core/lv_obj_id_builtin.c",
+      "git_blob_sha1": "ed8f745ffae92a14cb5ed0777133e422fca69e77"
+    },
+    {
+      "path": "src/core/lv_obj_pos.c",
+      "git_blob_sha1": "0f10d7dcc64765cdd00adbcbf630a7a6930120c7"
+    },
+    {
+      "path": "src/core/lv_obj_pos.h",
+      "git_blob_sha1": "584f0b7e8d54faaf068db3ae0370462dd81377ca"
+    },
+    {
+      "path": "src/core/lv_obj_private.h",
+      "git_blob_sha1": "d9eee493948026589f51152de7ef3abef6d9709f"
+    },
+    {
+      "path": "src/core/lv_obj_property.c",
+      "git_blob_sha1": "405b00674bed54fe02400e400a5ccd9453c520d5"
+    },
+    {
+      "path": "src/core/lv_obj_property.h",
+      "git_blob_sha1": "4c8c142f4d5ccf1ff0d383b8178d3f4b89a27f56"
+    },
+    {
+      "path": "src/core/lv_obj_scroll.c",
+      "git_blob_sha1": "fa5e16fc90ac15280cfbd4f5616cab2a65734fda"
+    },
+    {
+      "path": "src/core/lv_obj_scroll.h",
+      "git_blob_sha1": "f2cb2f1033d2e7ef703f2fda275e4ba26a9025f4"
+    },
+    {
+      "path": "src/core/lv_obj_scroll_private.h",
+      "git_blob_sha1": "9ae6332d4fde77d57ef3574d6ce7783d1f834872"
+    },
+    {
+      "path": "src/core/lv_obj_style.c",
+      "git_blob_sha1": "06e3ffec342351ccc2848901d734712c31c48364"
+    },
+    {
+      "path": "src/core/lv_obj_style.h",
+      "git_blob_sha1": "ff4e365d8468b1a3a049a09cbafcf69268c31706"
+    },
+    {
+      "path": "src/core/lv_obj_style_gen.c",
+      "git_blob_sha1": "ad97db59416be0dd86a42a9e742371af2e522aac"
+    },
+    {
+      "path": "src/core/lv_obj_style_gen.h",
+      "git_blob_sha1": "77cf5378584e87d44847e24c809c08bdcd3fe285"
+    },
+    {
+      "path": "src/core/lv_obj_style_private.h",
+      "git_blob_sha1": "7fafc58b1d587f2c7d76cec1eccbbf8b8d605bc6"
+    },
+    {
+      "path": "src/core/lv_obj_tree.c",
+      "git_blob_sha1": "15c069e907d2b946d94609ec94683adbb232611d"
+    },
+    {
+      "path": "src/core/lv_obj_tree.h",
+      "git_blob_sha1": "9f679dd40aacae926a65ea7121cd74cdb8de15e7"
+    },
+    {
+      "path": "src/core/lv_refr.c",
+      "git_blob_sha1": "e91fc005979637be890d30c54baededd83d69e0e"
+    },
+    {
+      "path": "src/core/lv_refr.h",
+      "git_blob_sha1": "6b756edb5ee1b7504eb47342845ee422b961c34d"
+    },
+    {
+      "path": "src/core/lv_refr_private.h",
+      "git_blob_sha1": "8f840780b820ed0d8cfad5e194b80e4f769c74a3"
+    },
+    {
+      "path": "src/display/lv_display.c",
+      "git_blob_sha1": "df4bb9b2787d82dbdca7ac0667d1f6795c9d9eeb"
+    },
+    {
+      "path": "src/display/lv_display.h",
+      "git_blob_sha1": "e3e7c49f22f18a2bfbcec6606d9f3cc4ab87be58"
+    },
+    {
+      "path": "src/display/lv_display_private.h",
+      "git_blob_sha1": "7dc9f189fc9f21d9c229b0c16486de5854cac5cf"
+    },
+    {
+      "path": "src/draw/lv_draw.c",
+      "git_blob_sha1": "dbaec702814f5a136bb84b31bad8df02414f7ed0"
+    },
+    {
+      "path": "src/draw/lv_draw.h",
+      "git_blob_sha1": "29852677611dea756720cb9702337b5ab186410b"
+    },
+    {
+      "path": "src/draw/lv_draw_arc.c",
+      "git_blob_sha1": "f092ea73ff15c6f1e2efc8ddc587a63d7ea7b1b7"
+    },
+    {
+      "path": "src/draw/lv_draw_arc.h",
+      "git_blob_sha1": "726bd68c89ef7b9e04d05ca8b90839dfa24ac658"
+    },
+    {
+      "path": "src/draw/lv_draw_buf.c",
+      "git_blob_sha1": "a6dc29bb15052dcb284ecb1cc845a82959c5aa91"
+    },
+    {
+      "path": "src/draw/lv_draw_buf.h",
+      "git_blob_sha1": "22b09de0aeb66b18077d7c1865db1220dc4f849c"
+    },
+    {
+      "path": "src/draw/lv_draw_buf_private.h",
+      "git_blob_sha1": "051f9ba7c89ba90a874b839396b0a1738f163980"
+    },
+    {
+      "path": "src/draw/lv_draw_image.c",
+      "git_blob_sha1": "45804573e6622847ee74a10270ef21633dd3a3aa"
+    },
+    {
+      "path": "src/draw/lv_draw_image.h",
+      "git_blob_sha1": "a16f6d05563f6c3fdd4f50385b577576c7dcbd2d"
+    },
+    {
+      "path": "src/draw/lv_draw_image_private.h",
+      "git_blob_sha1": "a39ee6164644b8a85c60791678915bfed2ba4918"
+    },
+    {
+      "path": "src/draw/lv_draw_label.c",
+      "git_blob_sha1": "e733c40d29104c0022561767457116a992f4bf9a"
+    },
+    {
+      "path": "src/draw/lv_draw_label.h",
+      "git_blob_sha1": "67afaf5c777f077cdce96c7606bb0762d82d3bf0"
+    },
+    {
+      "path": "src/draw/lv_draw_label_private.h",
+      "git_blob_sha1": "163651da529a412244c5881535728451a0972c64"
+    },
+    {
+      "path": "src/draw/lv_draw_line.c",
+      "git_blob_sha1": "00fc203b10d93baecdf33358312e5c62e5cb4c1e"
+    },
+    {
+      "path": "src/draw/lv_draw_line.h",
+      "git_blob_sha1": "72430fa7951af8da506873d45696d2b6cfbd6fcd"
+    },
+    {
+      "path": "src/draw/lv_draw_mask.c",
+      "git_blob_sha1": "3ee6b62bcb93b99e83b0a9e0292a3c5506cad259"
+    },
+    {
+      "path": "src/draw/lv_draw_mask.h",
+      "git_blob_sha1": "6dfed79b3e8af6b4c583030d1fa444d445d9fbb8"
+    },
+    {
+      "path": "src/draw/lv_draw_mask_private.h",
+      "git_blob_sha1": "040df7ebeba9f7080a93acc886dc51a3cd2b5bc3"
+    },
+    {
+      "path": "src/draw/lv_draw_private.h",
+      "git_blob_sha1": "d8244f799218e5d109f5a4e9d6be78f614a2823e"
+    },
+    {
+      "path": "src/draw/lv_draw_rect.c",
+      "git_blob_sha1": "ec2acc57a3b3ff8e581b4cacf6c5703fc1f2c193"
+    },
+    {
+      "path": "src/draw/lv_draw_rect.h",
+      "git_blob_sha1": "6fe3a82e732e0d0a0d7e91aa53b824d2e18a1c96"
+    },
+    {
+      "path": "src/draw/lv_draw_rect_private.h",
+      "git_blob_sha1": "ad75b5355219f24db3ed483ccba673a9d6f47913"
+    },
+    {
+      "path": "src/draw/lv_draw_triangle.c",
+      "git_blob_sha1": "6bf1c7c21cc09bdb3ca92f6ef00ebf9ca8a2526c"
+    },
+    {
+      "path": "src/draw/lv_draw_triangle.h",
+      "git_blob_sha1": "b1ad8e58b91098e7805a86ae417550a07982e452"
+    },
+    {
+      "path": "src/draw/lv_draw_triangle_private.h",
+      "git_blob_sha1": "7fc8ed5a25ae5ffc15c1e1ba35ce3b33171b9dc4"
+    },
+    {
+      "path": "src/draw/lv_draw_vector.c",
+      "git_blob_sha1": "28a08f289513aa9916b6a0ec347bf07012b5f6ee"
+    },
+    {
+      "path": "src/draw/lv_draw_vector.h",
+      "git_blob_sha1": "38ce78ae1544e1ea5c2572e0881aaa71b132c197"
+    },
+    {
+      "path": "src/draw/lv_draw_vector_private.h",
+      "git_blob_sha1": "5257a301e6790f0cbcffae31522192ad6e2d7bcd"
+    },
+    {
+      "path": "src/draw/lv_image_decoder.c",
+      "git_blob_sha1": "90934c10537d97d53beb01eb3246dcacb071d7c6"
+    },
+    {
+      "path": "src/draw/lv_image_decoder.h",
+      "git_blob_sha1": "e898edc9dd220855aa7faf0b714cd50080cf7186"
+    },
+    {
+      "path": "src/draw/lv_image_decoder_private.h",
+      "git_blob_sha1": "27ef261409268a7277ff50b97088331edc90fb2f"
+    },
+    {
+      "path": "src/draw/lv_image_dsc.h",
+      "git_blob_sha1": "ecd50882e4f352b22da413fd395bde736a38455b"
+    },
+    {
+      "path": "src/draw/nxp/pxp/lv_draw_buf_pxp.c",
+      "git_blob_sha1": "9819cfc6413f9336053c7d82bfaea59a51ec232f"
+    },
+    {
+      "path": "src/draw/nxp/pxp/lv_draw_pxp.c",
+      "git_blob_sha1": "636fe4379c35a54339622a7b1dc7e2966644c963"
+    },
+    {
+      "path": "src/draw/nxp/pxp/lv_draw_pxp.h",
+      "git_blob_sha1": "d34ad3f84b9396f6270c108cef3df8c373e6c881"
+    },
+    {
+      "path": "src/draw/nxp/pxp/lv_draw_pxp_fill.c",
+      "git_blob_sha1": "33b80473c73421359c5f1393c6b075dd38ea1a61"
+    },
+    {
+      "path": "src/draw/nxp/pxp/lv_draw_pxp_img.c",
+      "git_blob_sha1": "79f3790e9e50512b01645f3b282f4aa76b1efc57"
+    },
+    {
+      "path": "src/draw/nxp/pxp/lv_draw_pxp_layer.c",
+      "git_blob_sha1": "34cb285b7d4f05505e3530b6d92c9f147254461e"
+    },
+    {
+      "path": "src/draw/nxp/pxp/lv_pxp_cfg.c",
+      "git_blob_sha1": "675c1d0308a1c4ddb017d72208951e3eba82c1b4"
+    },
+    {
+      "path": "src/draw/nxp/pxp/lv_pxp_cfg.h",
+      "git_blob_sha1": "67d135857686943dc9617a420f75c0daf5ef8d71"
+    },
+    {
+      "path": "src/draw/nxp/pxp/lv_pxp_osa.c",
+      "git_blob_sha1": "43dd8155b65960a89867c84594b2da6651abd583"
+    },
+    {
+      "path": "src/draw/nxp/pxp/lv_pxp_osa.h",
+      "git_blob_sha1": "5e3d6669d360c934d3e138760a19b59937d93a7a"
+    },
+    {
+      "path": "src/draw/nxp/pxp/lv_pxp_utils.c",
+      "git_blob_sha1": "26acf6ca95d26f09fd8dddceed57c932d80e8b82"
+    },
+    {
+      "path": "src/draw/nxp/pxp/lv_pxp_utils.h",
+      "git_blob_sha1": "c9ba7bafd06dc1ef4fdba48ba071c12ace5900ff"
+    },
+    {
+      "path": "src/draw/nxp/vglite/lv_draw_buf_vglite.c",
+      "git_blob_sha1": "85403956fbd36d952b823043af4fb977bd908826"
+    },
+    {
+      "path": "src/draw/nxp/vglite/lv_draw_vglite.c",
+      "git_blob_sha1": "c6fc016f49db9ba64f941549370a291929aa2869"
+    },
+    {
+      "path": "src/draw/nxp/vglite/lv_draw_vglite.h",
+      "git_blob_sha1": "93b18cd7ea1818d264e633a045c4f313b2880dcd"
+    },
+    {
+      "path": "src/draw/nxp/vglite/lv_draw_vglite_arc.c",
+      "git_blob_sha1": "6b0d4fe553c737d596e0993bafb3fc6a40d30acd"
+    },
+    {
+      "path": "src/draw/nxp/vglite/lv_draw_vglite_border.c",
+      "git_blob_sha1": "db762fb6142a0df524917298b560269e48237cb1"
+    },
+    {
+      "path": "src/draw/nxp/vglite/lv_draw_vglite_fill.c",
+      "git_blob_sha1": "97089ce55e87d31b53c12eae5112f3f5433b9522"
+    },
+    {
+      "path": "src/draw/nxp/vglite/lv_draw_vglite_img.c",
+      "git_blob_sha1": "49fdffaffa7ce1d3e1b2c6f90bf543f2f20f3115"
+    },
+    {
+      "path": "src/draw/nxp/vglite/lv_draw_vglite_label.c",
+      "git_blob_sha1": "9af7c683738913383d90cf394f29d59c57a9ac53"
+    },
+    {
+      "path": "src/draw/nxp/vglite/lv_draw_vglite_layer.c",
+      "git_blob_sha1": "ce3f59ea5217dfc72a2dd570ab20bbcd31e2efff"
+    },
+    {
+      "path": "src/draw/nxp/vglite/lv_draw_vglite_line.c",
+      "git_blob_sha1": "f70c02b20d2b3d484e4fd095032b4d9ad406b42a"
+    },
+    {
+      "path": "src/draw/nxp/vglite/lv_draw_vglite_triangle.c",
+      "git_blob_sha1": "8556fdf2af4c47c3e854663cdc649198d7481ab4"
+    },
+    {
+      "path": "src/draw/nxp/vglite/lv_vglite_buf.c",
+      "git_blob_sha1": "a72c8e554bdf0675b89a7e1fe7eee393b3021e12"
+    },
+    {
+      "path": "src/draw/nxp/vglite/lv_vglite_buf.h",
+      "git_blob_sha1": "3ef434748fe44cf0fb99384e809de3df7c59e1fc"
+    },
+    {
+      "path": "src/draw/nxp/vglite/lv_vglite_matrix.c",
+      "git_blob_sha1": "0594b53dc15fddfc45f0a4e70f80c757d0eb2fb8"
+    },
+    {
+      "path": "src/draw/nxp/vglite/lv_vglite_matrix.h",
+      "git_blob_sha1": "832cd86bb56d5efc982a85a5e99efaeacf727ed1"
+    },
+    {
+      "path": "src/draw/nxp/vglite/lv_vglite_path.c",
+      "git_blob_sha1": "6f8b759c82a662cdae30d28520038ac321736bb9"
+    },
+    {
+      "path": "src/draw/nxp/vglite/lv_vglite_path.h",
+      "git_blob_sha1": "f38593aebbcb2ae512e204d49a4a271fc9d233b3"
+    },
+    {
+      "path": "src/draw/nxp/vglite/lv_vglite_utils.c",
+      "git_blob_sha1": "b3afa5a40908bc0996d33c32d1e77dd765228698"
+    },
+    {
+      "path": "src/draw/nxp/vglite/lv_vglite_utils.h",
+      "git_blob_sha1": "6615c4c79cabe77c82b9d3cbad3d84af915be192"
+    },
+    {
+      "path": "src/draw/renesas/dave2d/lv_draw_dave2d.c",
+      "git_blob_sha1": "039b147a7f3154aff5f1c1300f5f15808dbb975b"
+    },
+    {
+      "path": "src/draw/renesas/dave2d/lv_draw_dave2d.h",
+      "git_blob_sha1": "186f57a75f8deb4a4e6ca3ca44d9f1d887a575cf"
+    },
+    {
+      "path": "src/draw/renesas/dave2d/lv_draw_dave2d_arc.c",
+      "git_blob_sha1": "03775387a3082da9404cec7b664fd8331ace7364"
+    },
+    {
+      "path": "src/draw/renesas/dave2d/lv_draw_dave2d_border.c",
+      "git_blob_sha1": "6033251df22674be5b457fe3205472c4d714c186"
+    },
+    {
+      "path": "src/draw/renesas/dave2d/lv_draw_dave2d_fill.c",
+      "git_blob_sha1": "e2ffcd9fe956237940977caba0665065dd5fd611"
+    },
+    {
+      "path": "src/draw/renesas/dave2d/lv_draw_dave2d_image.c",
+      "git_blob_sha1": "dc001151aec272a4c22bf20d31197a41bce870f3"
+    },
+    {
+      "path": "src/draw/renesas/dave2d/lv_draw_dave2d_label.c",
+      "git_blob_sha1": "f5760e623769f02303b687bde223a7f967de83de"
+    },
+    {
+      "path": "src/draw/renesas/dave2d/lv_draw_dave2d_line.c",
+      "git_blob_sha1": "ef188eb4a226ba5d1ae65851d7ce5fc264c2cc65"
+    },
+    {
+      "path": "src/draw/renesas/dave2d/lv_draw_dave2d_mask_rectangle.c",
+      "git_blob_sha1": "fe94a9a4014bffd52a2eeb6e1981805c80b4849c"
+    },
+    {
+      "path": "src/draw/renesas/dave2d/lv_draw_dave2d_triangle.c",
+      "git_blob_sha1": "502200797c269fe2825934fcc84466b4e59bbe5a"
+    },
+    {
+      "path": "src/draw/renesas/dave2d/lv_draw_dave2d_utils.c",
+      "git_blob_sha1": "98fb806096ba6cf7e9cb7573ba9dbb4bc9a2d06f"
+    },
+    {
+      "path": "src/draw/renesas/dave2d/lv_draw_dave2d_utils.h",
+      "git_blob_sha1": "67c5102675dafa1a88b3b6ee3819a8f028dcc38e"
+    },
+    {
+      "path": "src/draw/sdl/lv_draw_sdl.c",
+      "git_blob_sha1": "c155ac1140ce5f1f8bc4397dbf06693675f2b242"
+    },
+    {
+      "path": "src/draw/sdl/lv_draw_sdl.h",
+      "git_blob_sha1": "d9b061de1f43c06d80d3eee424dcd6a3ceb9324d"
+    },
+    {
+      "path": "src/draw/sw/arm2d/lv_draw_sw_arm2d.h",
+      "git_blob_sha1": "77c6cc4de9ce59017ded271a7f45378dae2da8d1"
+    },
+    {
+      "path": "src/draw/sw/arm2d/lv_draw_sw_helium.h",
+      "git_blob_sha1": "c35a06eb6c8d91d344217d3a8ceb3b1bdb21bfa3"
+    },
+    {
+      "path": "src/draw/sw/blend/arm2d/lv_blend_arm2d.h",
+      "git_blob_sha1": "0eb29b853faf209016ea0df51bc7dbc1cd71fb36"
+    },
+    {
+      "path": "src/draw/sw/blend/helium/lv_blend_helium.h",
+      "git_blob_sha1": "69b999efccb9164827e8516afd6642e3c9e70b14"
+    },
+    {
+      "path": "src/draw/sw/blend/lv_draw_sw_blend.c",
+      "git_blob_sha1": "6f48eba64fa4e0c323d65c4d6434548cf4ced34e"
+    },
+    {
+      "path": "src/draw/sw/blend/lv_draw_sw_blend.h",
+      "git_blob_sha1": "1528cacc3b13683442edad4f6e0adbc81ecb4de0"
+    },
+    {
+      "path": "src/draw/sw/blend/lv_draw_sw_blend_private.h",
+      "git_blob_sha1": "532f4c9669663994f605f2d543d6c0a9c8c7ca3a"
+    },
+    {
+      "path": "src/draw/sw/blend/lv_draw_sw_blend_to_al88.c",
+      "git_blob_sha1": "9c3194c20654e5c52304b1962fa8207bdd61fed2"
+    },
+    {
+      "path": "src/draw/sw/blend/lv_draw_sw_blend_to_al88.h",
+      "git_blob_sha1": "b83523b920535fe1bee3615f12768f5d22972894"
+    },
+    {
+      "path": "src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.c",
+      "git_blob_sha1": "4bf3ef4919b3124511e56d05f2fbd35b6a66701f"
+    },
+    {
+      "path": "src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.h",
+      "git_blob_sha1": "2046c23f3cba846097ad8ba9b031ee9fa4a39bc4"
+    },
+    {
+      "path": "src/draw/sw/blend/lv_draw_sw_blend_to_i1.c",
+      "git_blob_sha1": "1e056ee665f39e9f29274870160f4c8f3d8f4ee6"
+    },
+    {
+      "path": "src/draw/sw/blend/lv_draw_sw_blend_to_i1.h",
+      "git_blob_sha1": "5d72523dec59f014fda03286294d75b7ddf49a33"
+    },
+    {
+      "path": "src/draw/sw/blend/lv_draw_sw_blend_to_l8.c",
+      "git_blob_sha1": "fa9c0251fd5631b344b10df1e0bb22379101607d"
+    },
+    {
+      "path": "src/draw/sw/blend/lv_draw_sw_blend_to_l8.h",
+      "git_blob_sha1": "079218e5a787d5a0a1e281314007d647a367b292"
+    },
+    {
+      "path": "src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.c",
+      "git_blob_sha1": "1fa8c06b2fb03ebdd55e862c1028b884fc3df6fa"
+    },
+    {
+      "path": "src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.h",
+      "git_blob_sha1": "d14bfd94dba71eeb20d5d02d4492f2b053dbd394"
+    },
+    {
+      "path": "src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.c",
+      "git_blob_sha1": "e29e934c1ac9c484c47a59ac7ef1e2ba6cef9a61"
+    },
+    {
+      "path": "src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.h",
+      "git_blob_sha1": "441c0d3e819c1c411c2416e81dee54e6b24c1694"
+    },
+    {
+      "path": "src/draw/sw/blend/neon/lv_blend_neon.h",
+      "git_blob_sha1": "fd52647bffaa56384f19ee2c857e45cb12451713"
+    },
+    {
+      "path": "src/draw/sw/lv_draw_sw.c",
+      "git_blob_sha1": "1ae578d15b0a4a41dade1510d1629fa7c1b0d277"
+    },
+    {
+      "path": "src/draw/sw/lv_draw_sw.h",
+      "git_blob_sha1": "6463afd86bafeeeb0224276428bcb6449f9c8bf9"
+    },
+    {
+      "path": "src/draw/sw/lv_draw_sw_arc.c",
+      "git_blob_sha1": "ec2fb2fd9039fc9c51f907a8aba32e28cde119ae"
+    },
+    {
+      "path": "src/draw/sw/lv_draw_sw_border.c",
+      "git_blob_sha1": "07eb18c0e1c8b44272da64fe317a6134166d8361"
+    },
+    {
+      "path": "src/draw/sw/lv_draw_sw_box_shadow.c",
+      "git_blob_sha1": "f80287566f92dfb49560dd016d921d39745a1c93"
+    },
+    {
+      "path": "src/draw/sw/lv_draw_sw_fill.c",
+      "git_blob_sha1": "0aeb559940a86caa6d861fc6515c744ff99358c1"
+    },
+    {
+      "path": "src/draw/sw/lv_draw_sw_gradient.c",
+      "git_blob_sha1": "92627108cc8294b37e2c3e24ec4fd0b1df61ce84"
+    },
+    {
+      "path": "src/draw/sw/lv_draw_sw_gradient.h",
+      "git_blob_sha1": "01029cbab4b2685895fb613028de5df00eadbaf0"
+    },
+    {
+      "path": "src/draw/sw/lv_draw_sw_gradient_private.h",
+      "git_blob_sha1": "7e2f2ab3dc260135c81e4b7834a01cad2e3b9eeb"
+    },
+    {
+      "path": "src/draw/sw/lv_draw_sw_img.c",
+      "git_blob_sha1": "42179a2a2742a548937fa1e873dbc46e3b7a75b8"
+    },
+    {
+      "path": "src/draw/sw/lv_draw_sw_letter.c",
+      "git_blob_sha1": "3dec220d91d2116021ec38d67891666fb32432ca"
+    },
+    {
+      "path": "src/draw/sw/lv_draw_sw_line.c",
+      "git_blob_sha1": "be3b19103bb5057ea32af6a369f9421d7eb7d87a"
+    },
+    {
+      "path": "src/draw/sw/lv_draw_sw_mask.c",
+      "git_blob_sha1": "c4fd79220271c33f29224e665b2783116c326c67"
+    },
+    {
+      "path": "src/draw/sw/lv_draw_sw_mask.h",
+      "git_blob_sha1": "3f7b306e4127231b07791cb5016eac3fb92ae80e"
+    },
+    {
+      "path": "src/draw/sw/lv_draw_sw_mask_private.h",
+      "git_blob_sha1": "aeae9b8eac9a3e87bee9c016719e8e6eab9246eb"
+    },
+    {
+      "path": "src/draw/sw/lv_draw_sw_mask_rect.c",
+      "git_blob_sha1": "bd28d0d0e13e6cdb9e220f9760eaff30477b4494"
+    },
+    {
+      "path": "src/draw/sw/lv_draw_sw_private.h",
+      "git_blob_sha1": "38ba3b4c7b2ea95d31aae17b70461f1262fbc0cb"
+    },
+    {
+      "path": "src/draw/sw/lv_draw_sw_transform.c",
+      "git_blob_sha1": "41036d4300b2b97adf1ab16ba0c92990b1fc356b"
+    },
+    {
+      "path": "src/draw/sw/lv_draw_sw_triangle.c",
+      "git_blob_sha1": "4d42c4e3c81a265bc51ad24497f2d751c3f2694f"
+    },
+    {
+      "path": "src/draw/sw/lv_draw_sw_vector.c",
+      "git_blob_sha1": "4b99a47e9c9bd0d1a97c9736ff8f3a3de3b0b3c5"
+    },
+    {
+      "path": "src/draw/vg_lite/lv_draw_buf_vg_lite.c",
+      "git_blob_sha1": "de0b4b90bc95f97c77bb49eb747c61ad24e37d51"
+    },
+    {
+      "path": "src/draw/vg_lite/lv_draw_vg_lite.c",
+      "git_blob_sha1": "1a991ce0f7c935681210af5d206af3c89e4a5697"
+    },
+    {
+      "path": "src/draw/vg_lite/lv_draw_vg_lite.h",
+      "git_blob_sha1": "63ff7f50452cb813162f1d5e8f39a3a96e08a79a"
+    },
+    {
+      "path": "src/draw/vg_lite/lv_draw_vg_lite_arc.c",
+      "git_blob_sha1": "be995ceac0101501e6bbb27c31bc507805d7eff3"
+    },
+    {
+      "path": "src/draw/vg_lite/lv_draw_vg_lite_border.c",
+      "git_blob_sha1": "5860baa1f19b63ce8ca4ba24ff2797de38e19008"
+    },
+    {
+      "path": "src/draw/vg_lite/lv_draw_vg_lite_box_shadow.c",
+      "git_blob_sha1": "cad9500f87ef0d949ecf2fc3f86e9acee8f195f6"
+    },
+    {
+      "path": "src/draw/vg_lite/lv_draw_vg_lite_fill.c",
+      "git_blob_sha1": "dbfd63df535cac4f60090c646f9f916fd15e0b8a"
+    },
+    {
+      "path": "src/draw/vg_lite/lv_draw_vg_lite_img.c",
+      "git_blob_sha1": "86e43375e5540ecb49b6c88837016e6525d8d9e3"
+    },
+    {
+      "path": "src/draw/vg_lite/lv_draw_vg_lite_label.c",
+      "git_blob_sha1": "6c4c365d84d585b87845bc301ee30b8892f835c5"
+    },
+    {
+      "path": "src/draw/vg_lite/lv_draw_vg_lite_layer.c",
+      "git_blob_sha1": "8f2a17e803180013ecd9e64110ba354ba8091b4a"
+    },
+    {
+      "path": "src/draw/vg_lite/lv_draw_vg_lite_line.c",
+      "git_blob_sha1": "e1ba695b7437b38814d0e73275bec455f881b6c8"
+    },
+    {
+      "path": "src/draw/vg_lite/lv_draw_vg_lite_mask_rect.c",
+      "git_blob_sha1": "3d24b23759502312307c224782bcdb164fcfab56"
+    },
+    {
+      "path": "src/draw/vg_lite/lv_draw_vg_lite_triangle.c",
+      "git_blob_sha1": "63609130ea28e097717b52ee8618fe68f4bb9c72"
+    },
+    {
+      "path": "src/draw/vg_lite/lv_draw_vg_lite_type.h",
+      "git_blob_sha1": "d325be51b628bb56a62287a8cc87e445b3385007"
+    },
+    {
+      "path": "src/draw/vg_lite/lv_draw_vg_lite_vector.c",
+      "git_blob_sha1": "481be5cdb18c45568a822e4c2fd498405719317a"
+    },
+    {
+      "path": "src/draw/vg_lite/lv_vg_lite_decoder.c",
+      "git_blob_sha1": "bb7a784bbbca49a7d0bfeafa27d84a94fc94b823"
+    },
+    {
+      "path": "src/draw/vg_lite/lv_vg_lite_decoder.h",
+      "git_blob_sha1": "9bab540c6e2ec3e0f797d43b14deea64c9a33a7a"
+    },
+    {
+      "path": "src/draw/vg_lite/lv_vg_lite_grad.c",
+      "git_blob_sha1": "5158d057dc611056a552c02456edd87467ff73dc"
+    },
+    {
+      "path": "src/draw/vg_lite/lv_vg_lite_grad.h",
+      "git_blob_sha1": "d8b9d1f97e34b465a28eac9212eb2ad71a5a7b45"
+    },
+    {
+      "path": "src/draw/vg_lite/lv_vg_lite_math.c",
+      "git_blob_sha1": "52b4bb950b6f4b922b670cd1af5414d9b0555843"
+    },
+    {
+      "path": "src/draw/vg_lite/lv_vg_lite_math.h",
+      "git_blob_sha1": "3b4b45d75473e8d62ac4e2612e8aaf14f829826a"
+    },
+    {
+      "path": "src/draw/vg_lite/lv_vg_lite_path.c",
+      "git_blob_sha1": "9a9346b8a3b6edaa9329dda1bca462f5e11cda76"
+    },
+    {
+      "path": "src/draw/vg_lite/lv_vg_lite_path.h",
+      "git_blob_sha1": "b1ef3f894f2d911b92f3b00747b3f8f522364584"
+    },
+    {
+      "path": "src/draw/vg_lite/lv_vg_lite_pending.c",
+      "git_blob_sha1": "b8429f0f5493baf5784f0b18005f69a4f275c052"
+    },
+    {
+      "path": "src/draw/vg_lite/lv_vg_lite_pending.h",
+      "git_blob_sha1": "bf439b74d82971753e7125d887bda8d6b4d125c7"
+    },
+    {
+      "path": "src/draw/vg_lite/lv_vg_lite_stroke.c",
+      "git_blob_sha1": "1b8a20248383cbd6d31dc926ab686d8a7db46355"
+    },
+    {
+      "path": "src/draw/vg_lite/lv_vg_lite_stroke.h",
+      "git_blob_sha1": "4a0602d625c4adc9be46fcfd4f8a723de8d76fd8"
+    },
+    {
+      "path": "src/draw/vg_lite/lv_vg_lite_utils.c",
+      "git_blob_sha1": "116cbde3e46841a81ecaf78d75f2272be83b5040"
+    },
+    {
+      "path": "src/draw/vg_lite/lv_vg_lite_utils.h",
+      "git_blob_sha1": "becbce8932c83b6a2618ea70d8b231269de265ae"
+    },
+    {
+      "path": "src/drivers/display/drm/lv_linux_drm.h",
+      "git_blob_sha1": "ee32466caae304da3cf741bca3b8e1f07e03bc3a"
+    },
+    {
+      "path": "src/drivers/display/fb/lv_linux_fbdev.h",
+      "git_blob_sha1": "2c41aec19226934a7f31054fd52ef7f02630a93d"
+    },
+    {
+      "path": "src/drivers/display/ili9341/lv_ili9341.h",
+      "git_blob_sha1": "78e90306bc646f737ae404d86ff021af9e7f22a0"
+    },
+    {
+      "path": "src/drivers/display/lcd/lv_lcd_generic_mipi.h",
+      "git_blob_sha1": "8daa5e044fd7c87a2bf4e17d5ef32f69ff122a1e"
+    },
+    {
+      "path": "src/drivers/display/renesas_glcdc/lv_renesas_glcdc.h",
+      "git_blob_sha1": "0558614e531d55d165d25c444cd9d43da53a0d99"
+    },
+    {
+      "path": "src/drivers/display/st7735/lv_st7735.h",
+      "git_blob_sha1": "72dd1a94c361ee0b37285a4b24c18170f5e30277"
+    },
+    {
+      "path": "src/drivers/display/st7789/lv_st7789.h",
+      "git_blob_sha1": "5f1acada7fb62a261159a5b96f791c04a34a22cc"
+    },
+    {
+      "path": "src/drivers/display/st7796/lv_st7796.h",
+      "git_blob_sha1": "924eecb4385621047b5d54bd686d5f108ff19f17"
+    },
+    {
+      "path": "src/drivers/display/tft_espi/lv_tft_espi.h",
+      "git_blob_sha1": "a8f49f892167d16f600a8a12e97fc5094862a3ec"
+    },
+    {
+      "path": "src/drivers/evdev/lv_evdev.h",
+      "git_blob_sha1": "95ab1544c89c18d48e24f1d932d4b26022f1f187"
+    },
+    {
+      "path": "src/drivers/glfw/lv_glfw_window.h",
+      "git_blob_sha1": "e8e516101227f1c40f4749272ab47a67b84e6c1d"
+    },
+    {
+      "path": "src/drivers/glfw/lv_glfw_window_private.h",
+      "git_blob_sha1": "a8149c292b3f3ebc90e5c304daa8ace873f0df21"
+    },
+    {
+      "path": "src/drivers/glfw/lv_opengles_debug.h",
+      "git_blob_sha1": "ddde0eb5369547faf3d474148e6e8c8067e0ec53"
+    },
+    {
+      "path": "src/drivers/glfw/lv_opengles_driver.h",
+      "git_blob_sha1": "e539febb996220609431860c49551471a4b99ab8"
+    },
+    {
+      "path": "src/drivers/glfw/lv_opengles_texture.h",
+      "git_blob_sha1": "0d53b2b16896d748153ecbb5d211c629d2408dc6"
+    },
+    {
+      "path": "src/drivers/libinput/lv_libinput.h",
+      "git_blob_sha1": "ce19a33b5c0751fccb816a9d21c7f50d0298b40b"
+    },
+    {
+      "path": "src/drivers/libinput/lv_libinput_private.h",
+      "git_blob_sha1": "bced3e219e3f1038aaad6d85123606974a42fac5"
+    },
+    {
+      "path": "src/drivers/libinput/lv_xkb.h",
+      "git_blob_sha1": "3f9fd86eab00aa89764d0462da15c8451c5abbeb"
+    },
+    {
+      "path": "src/drivers/libinput/lv_xkb_private.h",
+      "git_blob_sha1": "315762541a50ab4942633fe37a3446cf7c519987"
+    },
+    {
+      "path": "src/drivers/lv_drivers.h",
+      "git_blob_sha1": "08c76e77762f5df25ad49685bfdf01972faea4c6"
+    },
+    {
+      "path": "src/drivers/nuttx/lv_nuttx_cache.h",
+      "git_blob_sha1": "74be6d3af55ba931c00f621adbab2d7135bc7e8e"
+    },
+    {
+      "path": "src/drivers/nuttx/lv_nuttx_entry.h",
+      "git_blob_sha1": "64ece994ec122d46285c4e8af70a6fb92c76e7f6"
+    },
+    {
+      "path": "src/drivers/nuttx/lv_nuttx_fbdev.h",
+      "git_blob_sha1": "4310aa9c1dfc2bf17117091f09449e7e65690d38"
+    },
+    {
+      "path": "src/drivers/nuttx/lv_nuttx_image_cache.h",
+      "git_blob_sha1": "105779fa647e40709bd5e01718cd4adb020e0164"
+    },
+    {
+      "path": "src/drivers/nuttx/lv_nuttx_lcd.h",
+      "git_blob_sha1": "16e24ff8f1a65dcbe61197a4c70483d2570c29e4"
+    },
+    {
+      "path": "src/drivers/nuttx/lv_nuttx_libuv.h",
+      "git_blob_sha1": "0799e67b129cc9e35d4c5dc722be1de7deb0ed0d"
+    },
+    {
+      "path": "src/drivers/nuttx/lv_nuttx_profiler.h",
+      "git_blob_sha1": "8b8cf65210489f82a0ed3b57c8244317c186ff91"
+    },
+    {
+      "path": "src/drivers/nuttx/lv_nuttx_touchscreen.h",
+      "git_blob_sha1": "e0dd1f14f7347feb6846a999cbaa1e048d823954"
+    },
+    {
+      "path": "src/drivers/qnx/lv_qnx.h",
+      "git_blob_sha1": "bb8f9409a2d0228bf78e3a6335456832e601a2f5"
+    },
+    {
+      "path": "src/drivers/sdl/lv_sdl_keyboard.h",
+      "git_blob_sha1": "a18b09d8acc7e317561fd2781d19d46a931fcf07"
+    },
+    {
+      "path": "src/drivers/sdl/lv_sdl_mouse.h",
+      "git_blob_sha1": "ef60685f422b4e67d7714c4bcc458331c916c070"
+    },
+    {
+      "path": "src/drivers/sdl/lv_sdl_mousewheel.h",
+      "git_blob_sha1": "7ca34bdbbb33d79bc867f207a6344ccb11b79862"
+    },
+    {
+      "path": "src/drivers/sdl/lv_sdl_private.h",
+      "git_blob_sha1": "1fd519bfa7f97dcfc432082067807f4379ebaf21"
+    },
+    {
+      "path": "src/drivers/sdl/lv_sdl_window.h",
+      "git_blob_sha1": "f2e243cdde174ecf4f4ccf1ce2401e33c896e41c"
+    },
+    {
+      "path": "src/drivers/wayland/lv_wayland.h",
+      "git_blob_sha1": "f3d340b0d169a9a95c324a6e64d09714baf93b87"
+    },
+    {
+      "path": "src/drivers/wayland/lv_wayland_smm.h",
+      "git_blob_sha1": "617244f174022ce475fedc1e880dd40ebf75f7b9"
+    },
+    {
+      "path": "src/drivers/windows/lv_windows_context.h",
+      "git_blob_sha1": "c4fc9417a93056043e19af11cc8781e6d0a5e9a7"
+    },
+    {
+      "path": "src/drivers/windows/lv_windows_display.h",
+      "git_blob_sha1": "b9c6f8e94d7810cd6d7bb8248a82aeb157993910"
+    },
+    {
+      "path": "src/drivers/windows/lv_windows_input.h",
+      "git_blob_sha1": "892014ea34be18be85e6f6251989d31259404132"
+    },
+    {
+      "path": "src/drivers/windows/lv_windows_input_private.h",
+      "git_blob_sha1": "7d1096ed5f8ec2aa9e48b69913f519ad3e27fb35"
+    },
+    {
+      "path": "src/drivers/x11/lv_x11.h",
+      "git_blob_sha1": "7daabe3ef23a04edafe1be3be12a8244404e17ca"
+    },
+    {
+      "path": "src/font/lv_binfont_loader.c",
+      "git_blob_sha1": "4746026f52996a2596fbfc019e43fcce5e3e8ce7"
+    },
+    {
+      "path": "src/font/lv_binfont_loader.h",
+      "git_blob_sha1": "25e7b83747e77c61af440d0da4486e2974f9c3ab"
+    },
+    {
+      "path": "src/font/lv_font.c",
+      "git_blob_sha1": "35ae352e34ee8348d92e93d3dc7907c22ff46742"
+    },
+    {
+      "path": "src/font/lv_font.h",
+      "git_blob_sha1": "2f172b9f81798b0b36489c6ad6a46d55d09c10c1"
+    },
+    {
+      "path": "src/font/lv_font_dejavu_16_persian_hebrew.c",
+      "git_blob_sha1": "02a95735e00ea36ab0c6e2c0d66148fb4a08ad77"
+    },
+    {
+      "path": "src/font/lv_font_fmt_txt.c",
+      "git_blob_sha1": "5d0130454ed5c38872c9588ec78ef6806c05697e"
+    },
+    {
+      "path": "src/font/lv_font_fmt_txt.h",
+      "git_blob_sha1": "4eeb0c6e136760dd5fbb9e6cb0a2174d103ef7a6"
+    },
+    {
+      "path": "src/font/lv_font_fmt_txt_private.h",
+      "git_blob_sha1": "66df402d6b932029a6c2e67a635b207e6643cafc"
+    },
+    {
+      "path": "src/font/lv_font_montserrat_12.c",
+      "git_blob_sha1": "6e5c1ea412cf951eec493264267e5852c1a76a54"
+    },
+    {
+      "path": "src/font/lv_font_simsun_14_cjk.c",
+      "git_blob_sha1": "4cd687f94affb0b5035c0f50f66335d3c88fe2a2"
+    },
+    {
+      "path": "src/font/lv_font_simsun_16_cjk.c",
+      "git_blob_sha1": "e8b2f28ae6f459d4e0498a2549701e2cf373dab6"
+    },
+    {
+      "path": "src/font/lv_font_unscii_16.c",
+      "git_blob_sha1": "b95d51aedcede77767311cc56d1e543c02edc814"
+    },
+    {
+      "path": "src/font/lv_font_unscii_8.c",
+      "git_blob_sha1": "26b92fbbf687c61c46333067ab6d77678d5c2b0b"
+    },
+    {
+      "path": "src/font/lv_symbol_def.h",
+      "git_blob_sha1": "d78f3892d1a4645d5ee6cb3da88c66dd2cdb376c"
+    },
+    {
+      "path": "src/indev/lv_indev.c",
+      "git_blob_sha1": "3a4a5721aabd38ad64534458280c04f2e8c9ee02"
+    },
+    {
+      "path": "src/indev/lv_indev.h",
+      "git_blob_sha1": "9b0ee4518ccde6ad80b9771f2f0c0680fc4cc30d"
+    },
+    {
+      "path": "src/indev/lv_indev_private.h",
+      "git_blob_sha1": "a5fa23164001ae4ef80a763e6932e0e50d26ec48"
+    },
+    {
+      "path": "src/indev/lv_indev_scroll.c",
+      "git_blob_sha1": "f32786577b31c43f4fb4e19feaf35ab266154884"
+    },
+    {
+      "path": "src/indev/lv_indev_scroll.h",
+      "git_blob_sha1": "413376f16bee21395c9694e2bdbc97bfe2f95608"
+    },
+    {
+      "path": "src/layouts/flex/lv_flex.c",
+      "git_blob_sha1": "2af3bf35aaf20c06e08efb2547cb40beb474911b"
+    },
+    {
+      "path": "src/layouts/flex/lv_flex.h",
+      "git_blob_sha1": "9724f9b1cbc742d077aead19a92f9f5020ccd41e"
+    },
+    {
+      "path": "src/layouts/grid/lv_grid.c",
+      "git_blob_sha1": "70d3f7936f2ba6df8db66d2520085b6eff033e74"
+    },
+    {
+      "path": "src/layouts/grid/lv_grid.h",
+      "git_blob_sha1": "a7bf738223265530e2336676777811fea94bcccb"
+    },
+    {
+      "path": "src/layouts/lv_layout.c",
+      "git_blob_sha1": "ddb3b0e5ae3fca7d23a7efda6c2819076312cb6b"
+    },
+    {
+      "path": "src/layouts/lv_layout.h",
+      "git_blob_sha1": "a783d2b28a822b41e8a6bfe3ce5c252f876855a8"
+    },
+    {
+      "path": "src/layouts/lv_layout_private.h",
+      "git_blob_sha1": "dace2fccbb78e633046103bbfd07231504c7abad"
+    },
+    {
+      "path": "src/libs/barcode/code128.h",
+      "git_blob_sha1": "51d53d0cc17010f8bd2513711ea5af7bdab7c881"
+    },
+    {
+      "path": "src/libs/barcode/lv_barcode.h",
+      "git_blob_sha1": "c9c0ce657d1c9a29901e093b478c56c9d69f4176"
+    },
+    {
+      "path": "src/libs/barcode/lv_barcode_private.h",
+      "git_blob_sha1": "e6d18198f20ddd9a4c9f7caa85057ca574090759"
+    },
+    {
+      "path": "src/libs/bin_decoder/lv_bin_decoder.c",
+      "git_blob_sha1": "45edd65eb0c6af474d1c87079b1d8f42c0432d82"
+    },
+    {
+      "path": "src/libs/bin_decoder/lv_bin_decoder.h",
+      "git_blob_sha1": "d441230d08663529713f6ad265b4ae362ec1e569"
+    },
+    {
+      "path": "src/libs/bmp/lv_bmp.h",
+      "git_blob_sha1": "a7dbe277b2fbc2bb7113e098d1b978b6f98469a5"
+    },
+    {
+      "path": "src/libs/ffmpeg/lv_ffmpeg.h",
+      "git_blob_sha1": "1cb86b9d45fb82a526610ce2796c20da31f86973"
+    },
+    {
+      "path": "src/libs/ffmpeg/lv_ffmpeg_private.h",
+      "git_blob_sha1": "b27b6bf02568aeee1a57d8f89239ae3cd879fbd1"
+    },
+    {
+      "path": "src/libs/freetype/ftmodule.h",
+      "git_blob_sha1": "b804b6e3071d251b5ec8c17349b95118972e8763"
+    },
+    {
+      "path": "src/libs/freetype/ftoption.h",
+      "git_blob_sha1": "141278b014c8cbdd6dcdc7288693d66d2376cf62"
+    },
+    {
+      "path": "src/libs/freetype/lv_freetype.h",
+      "git_blob_sha1": "76b9f7b563413b839644c8dc788918376937abe4"
+    },
+    {
+      "path": "src/libs/freetype/lv_freetype_private.h",
+      "git_blob_sha1": "7644101ab34ed84c0e5d091a604cb44182c0d11e"
+    },
+    {
+      "path": "src/libs/fsdrv/lv_fsdrv.h",
+      "git_blob_sha1": "f830c3a2db2168d2a7ea0621d53d340ff27bd13d"
+    },
+    {
+      "path": "src/libs/gif/gifdec.h",
+      "git_blob_sha1": "21ff210ab50b7d3e48c3902676018b141c02db06"
+    },
+    {
+      "path": "src/libs/gif/gifdec_mve.h",
+      "git_blob_sha1": "6d83393497e8c9eedddd3d2d1d71709f08c3d355"
+    },
+    {
+      "path": "src/libs/gif/lv_gif.h",
+      "git_blob_sha1": "cf1bee47945c14de3aded47db5ac5a7a4622831f"
+    },
+    {
+      "path": "src/libs/gif/lv_gif_private.h",
+      "git_blob_sha1": "c4ea17af7a674494b7b4dab075ecf7179d45a5bf"
+    },
+    {
+      "path": "src/libs/libjpeg_turbo/lv_libjpeg_turbo.h",
+      "git_blob_sha1": "177c83a6148aea7e860fdca3e61801768adc0f4f"
+    },
+    {
+      "path": "src/libs/libpng/lv_libpng.h",
+      "git_blob_sha1": "12794585d0de74f06aeea78d6a8a0d593a1bea15"
+    },
+    {
+      "path": "src/libs/lodepng/lodepng.h",
+      "git_blob_sha1": "1ae3496505c0bb3bd6779e3c07d74b316c222214"
+    },
+    {
+      "path": "src/libs/lodepng/lv_lodepng.h",
+      "git_blob_sha1": "f3dc4b7713ce35754352c05b051f13c777142893"
+    },
+    {
+      "path": "src/libs/lz4/lz4.h",
+      "git_blob_sha1": "ce763af134a94baa307e280080d629e7cea4a9c8"
+    },
+    {
+      "path": "src/libs/qrcode/lv_qrcode.h",
+      "git_blob_sha1": "ba9b0e869e9908cbe93a67a18957455bebc7a2f8"
+    },
+    {
+      "path": "src/libs/qrcode/lv_qrcode_private.h",
+      "git_blob_sha1": "b912d65754517133c4ad71f19a6cbc818d72d778"
+    },
+    {
+      "path": "src/libs/qrcode/qrcodegen.h",
+      "git_blob_sha1": "950948684527489ecd2ad9a35f54196407c193ca"
+    },
+    {
+      "path": "src/libs/rle/lv_rle.h",
+      "git_blob_sha1": "02ab6a349123297cbf36d7f22da331d8cb22a2ba"
+    },
+    {
+      "path": "src/libs/rlottie/lv_rlottie.h",
+      "git_blob_sha1": "44bcf2ef4d9e82412356c1411667156e94f7660e"
+    },
+    {
+      "path": "src/libs/rlottie/lv_rlottie_private.h",
+      "git_blob_sha1": "91587bd6cbfc0616201fea0444c7a481942c0a26"
+    },
+    {
+      "path": "src/libs/thorvg/config.h",
+      "git_blob_sha1": "baa258a4f3f250699c5866c2499d9786fd653a93"
+    },
+    {
+      "path": "src/libs/thorvg/rapidjson/allocators.h",
+      "git_blob_sha1": "a943cf19934df001d554779e97cbc20874b5bc0a"
+    },
+    {
+      "path": "src/libs/thorvg/rapidjson/cursorstreamwrapper.h",
+      "git_blob_sha1": "fd6513db14a6afcdc3f7f969c9e3f26faf26a829"
+    },
+    {
+      "path": "src/libs/thorvg/rapidjson/document.h",
+      "git_blob_sha1": "f18fbd5f52d6422ad0e1771596f40f243aacff3b"
+    },
+    {
+      "path": "src/libs/thorvg/rapidjson/encodedstream.h",
+      "git_blob_sha1": "309499dc6b4ac226e29ffdbd50a386fbf34c2127"
+    },
+    {
+      "path": "src/libs/thorvg/rapidjson/encodings.h",
+      "git_blob_sha1": "5ee169e10158911b7c88ddd2ca2c0229304be1a7"
+    },
+    {
+      "path": "src/libs/thorvg/rapidjson/error/en.h",
+      "git_blob_sha1": "c87b04eb133ed55544ad7ac555a072393449a043"
+    },
+    {
+      "path": "src/libs/thorvg/rapidjson/error/error.h",
+      "git_blob_sha1": "cae345db36d2c1161c0c33ad744f5ee1eee6c0ee"
+    },
+    {
+      "path": "src/libs/thorvg/rapidjson/filereadstream.h",
+      "git_blob_sha1": "3daff09279aa7030b939d47d9917d1731cc1c7ed"
+    },
+    {
+      "path": "src/libs/thorvg/rapidjson/filewritestream.h",
+      "git_blob_sha1": "8a78ef7f09c591bc6a6f0a1ebfed7cea4d81e42e"
+    },
+    {
+      "path": "src/libs/thorvg/rapidjson/fwd.h",
+      "git_blob_sha1": "07358d8cc9cebb3b6ecdf809e648e073b5414435"
+    },
+    {
+      "path": "src/libs/thorvg/rapidjson/internal/biginteger.h",
+      "git_blob_sha1": "09d0387fe6e118c2a5bfebfd3a8ccf2379948b0a"
+    },
+    {
+      "path": "src/libs/thorvg/rapidjson/internal/clzll.h",
+      "git_blob_sha1": "8fc5118aa47b8e6f3984dd64e0d32f78f5be5f04"
+    },
+    {
+      "path": "src/libs/thorvg/rapidjson/internal/diyfp.h",
+      "git_blob_sha1": "1f60fb60ca04372e03cc8f22f984b568eb129207"
+    },
+    {
+      "path": "src/libs/thorvg/rapidjson/internal/dtoa.h",
+      "git_blob_sha1": "91c5756d9220d1ca179aec3f52f0bdf6b8ea64f2"
+    },
+    {
+      "path": "src/libs/thorvg/rapidjson/internal/ieee754.h",
+      "git_blob_sha1": "f887d1b27cd9bc1b9084d4d632966c2eb7a1ba8a"
+    },
+    {
+      "path": "src/libs/thorvg/rapidjson/internal/itoa.h",
+      "git_blob_sha1": "9fe8c932ffa6d03ac8926574b842abb0a191eab8"
+    },
+    {
+      "path": "src/libs/thorvg/rapidjson/internal/meta.h",
+      "git_blob_sha1": "76a1d5be46b10be037af295f28e7a215ac11ee52"
+    },
+    {
+      "path": "src/libs/thorvg/rapidjson/internal/pow10.h",
+      "git_blob_sha1": "04ee1f6b445ff0eaa916c441c7f54c7778f00db9"
+    },
+    {
+      "path": "src/libs/thorvg/rapidjson/internal/regex.h",
+      "git_blob_sha1": "e37126109fb488681ad299c7d772915c2753fa1e"
+    },
+    {
+      "path": "src/libs/thorvg/rapidjson/internal/stack.h",
+      "git_blob_sha1": "ceead449079f2139f2e230884edeb8705337a38e"
+    },
+    {
+      "path": "src/libs/thorvg/rapidjson/internal/strfunc.h",
+      "git_blob_sha1": "1a88f49bbace4ede82188a9ff60d7d1f855de3ae"
+    },
+    {
+      "path": "src/libs/thorvg/rapidjson/internal/strtod.h",
+      "git_blob_sha1": "62a42c69d889e6d323343da8d2005de83c588a72"
+    },
+    {
+      "path": "src/libs/thorvg/rapidjson/internal/swap.h",
+      "git_blob_sha1": "2cf92f93a1d371ab8e6f2e2084cc107926cff61a"
+    },
+    {
+      "path": "src/libs/thorvg/rapidjson/istreamwrapper.h",
+      "git_blob_sha1": "23dd83e96c0ab17496dca49d6fd960e67fd3cca8"
+    },
+    {
+      "path": "src/libs/thorvg/rapidjson/memorybuffer.h",
+      "git_blob_sha1": "14aad68636edc593eb94bba2ffe005e1ffdb3ce1"
+    },
+    {
+      "path": "src/libs/thorvg/rapidjson/memorystream.h",
+      "git_blob_sha1": "1bc393f282fdee2165bae81054dfcdd86d5e4865"
+    },
+    {
+      "path": "src/libs/thorvg/rapidjson/msinttypes/inttypes.h",
+      "git_blob_sha1": "1620402e013c5406a7bffe30ec4ea469b723d5c1"
+    },
+    {
+      "path": "src/libs/thorvg/rapidjson/msinttypes/stdint.h",
+      "git_blob_sha1": "1c266ecfe68b6fe02eb4ac3efbf593d169b68426"
+    },
+    {
+      "path": "src/libs/thorvg/rapidjson/ostreamwrapper.h",
+      "git_blob_sha1": "bfd4d6dab06cff2d37bb83135a908ed8ea467b92"
+    },
+    {
+      "path": "src/libs/thorvg/rapidjson/pointer.h",
+      "git_blob_sha1": "d0d762d2a357f62b49bea41ee8db7963183893d3"
+    },
+    {
+      "path": "src/libs/thorvg/rapidjson/prettywriter.h",
+      "git_blob_sha1": "cea596ef584d6d12b010eb8d06cc16792160d5de"
+    },
+    {
+      "path": "src/libs/thorvg/rapidjson/rapidjson.h",
+      "git_blob_sha1": "89de83861984650a043706045c0a6dd22766b107"
+    },
+    {
+      "path": "src/libs/thorvg/rapidjson/reader.h",
+      "git_blob_sha1": "86c1f28ea0545fbb8e464429cbccf7749bfa9f33"
+    },
+    {
+      "path": "src/libs/thorvg/rapidjson/schema.h",
+      "git_blob_sha1": "453e43e308909cc12e17d92e826bab3f553e178d"
+    },
+    {
+      "path": "src/libs/thorvg/rapidjson/stream.h",
+      "git_blob_sha1": "1fd70915c5472a570e8337ba7b6c4f9366398c07"
+    },
+    {
+      "path": "src/libs/thorvg/rapidjson/stringbuffer.h",
+      "git_blob_sha1": "17bfeac9f33693d35a56cb71a1cc7742ffd07432"
+    },
+    {
+      "path": "src/libs/thorvg/rapidjson/uri.h",
+      "git_blob_sha1": "f93e508a4f40974ef6881c7d96f57365f94c1eb3"
+    },
+    {
+      "path": "src/libs/thorvg/rapidjson/writer.h",
+      "git_blob_sha1": "81f34fc80db45b127f3a1d5a744b32dfe5e03d48"
+    },
+    {
+      "path": "src/libs/thorvg/thorvg.h",
+      "git_blob_sha1": "da3944c5dfcca77e3b0c746c2700c77c7d914483"
+    },
+    {
+      "path": "src/libs/thorvg/thorvg_capi.h",
+      "git_blob_sha1": "98b709ea2f47eb51a953aa85fa895c53afd1a0ba"
+    },
+    {
+      "path": "src/libs/thorvg/thorvg_lottie.h",
+      "git_blob_sha1": "b69410ae93eefa1719985aafe56a4f349e51aac4"
+    },
+    {
+      "path": "src/libs/thorvg/tvgAnimation.h",
+      "git_blob_sha1": "d0b456716898b47270d731a046236cb3c3168732"
+    },
+    {
+      "path": "src/libs/thorvg/tvgArray.h",
+      "git_blob_sha1": "33cd55ba259cce8bb9e4123a759487c8f0207f2c"
+    },
+    {
+      "path": "src/libs/thorvg/tvgBinaryDesc.h",
+      "git_blob_sha1": "add8b081a48e159e79f53c5cb08860076cecd7a1"
+    },
+    {
+      "path": "src/libs/thorvg/tvgCanvas.h",
+      "git_blob_sha1": "171f6aaea687bb879828fdcd5c0f79877d0706a2"
+    },
+    {
+      "path": "src/libs/thorvg/tvgCommon.h",
+      "git_blob_sha1": "d22c893fe894a5aa8cf908be80b0069f87e98584"
+    },
+    {
+      "path": "src/libs/thorvg/tvgCompressor.h",
+      "git_blob_sha1": "11e5fb39a89850a3f275ebb33a01449fac71153d"
+    },
+    {
+      "path": "src/libs/thorvg/tvgFill.h",
+      "git_blob_sha1": "e6d776f92826ab611767e3fb1f1bc0030c8289ff"
+    },
+    {
+      "path": "src/libs/thorvg/tvgFrameModule.h",
+      "git_blob_sha1": "02e69a87ac33877933222e8565cb1eff2e2d599d"
+    },
+    {
+      "path": "src/libs/thorvg/tvgInlist.h",
+      "git_blob_sha1": "eaedecce566d82410360c02493ddb1b2499ab512"
+    },
+    {
+      "path": "src/libs/thorvg/tvgIteratorAccessor.h",
+      "git_blob_sha1": "adc5f6ea88c447244f531a23a3aa5f0e55ec786d"
+    },
+    {
+      "path": "src/libs/thorvg/tvgLines.h",
+      "git_blob_sha1": "804ced13ae825be381ad3ec743e7060d573b23ad"
+    },
+    {
+      "path": "src/libs/thorvg/tvgLoadModule.h",
+      "git_blob_sha1": "210995fcfe42fe9c7ad03cdae273acb6b857a5de"
+    },
+    {
+      "path": "src/libs/thorvg/tvgLoader.h",
+      "git_blob_sha1": "50676990cde1dfc36fe129b125a65c9afe829bdd"
+    },
+    {
+      "path": "src/libs/thorvg/tvgLock.h",
+      "git_blob_sha1": "709c120e3e7d1c5595eaae310b86d2aeba1de4ee"
+    },
+    {
+      "path": "src/libs/thorvg/tvgLottieBuilder.h",
+      "git_blob_sha1": "690fa85ac888dddd94b849909c3a7e275a787a20"
+    },
+    {
+      "path": "src/libs/thorvg/tvgLottieExpressions.h",
+      "git_blob_sha1": "14819a8fe030035bdc4d8dcf677e70b7601a7c77"
+    },
+    {
+      "path": "src/libs/thorvg/tvgLottieInterpolator.h",
+      "git_blob_sha1": "c7d07d47d24132361c76ea263a324510c92d60dd"
+    },
+    {
+      "path": "src/libs/thorvg/tvgLottieLoader.h",
+      "git_blob_sha1": "57ad9b7f2eb2f1781231beef95bb39c7aecf97f8"
+    },
+    {
+      "path": "src/libs/thorvg/tvgLottieModel.h",
+      "git_blob_sha1": "6ba92de1ca4a7f38714fa0dae9b138a4fbd9ebc6"
+    },
+    {
+      "path": "src/libs/thorvg/tvgLottieParser.h",
+      "git_blob_sha1": "a8b6b0d9fd508f736d1e196d322478c47ba02579"
+    },
+    {
+      "path": "src/libs/thorvg/tvgLottieParserHandler.h",
+      "git_blob_sha1": "65b4545a20d8abad3256e7a4b844a6fca21aef16"
+    },
+    {
+      "path": "src/libs/thorvg/tvgLottieProperty.h",
+      "git_blob_sha1": "19df8952951ba0cf0f30d2e273fc583aa361a95d"
+    },
+    {
+      "path": "src/libs/thorvg/tvgMath.h",
+      "git_blob_sha1": "49bbe18648ea5f1aace36b57a223f028cd9dce70"
+    },
+    {
+      "path": "src/libs/thorvg/tvgPaint.h",
+      "git_blob_sha1": "a3fbc07489ca4876a68090c75ef842f45575dd2a"
+    },
+    {
+      "path": "src/libs/thorvg/tvgPicture.h",
+      "git_blob_sha1": "7c3ec54071e1ad5bb930aa559b712e9711f2ab06"
+    },
+    {
+      "path": "src/libs/thorvg/tvgRawLoader.h",
+      "git_blob_sha1": "492fd534182e11466b3d8689e6116419bb328fec"
+    },
+    {
+      "path": "src/libs/thorvg/tvgRender.h",
+      "git_blob_sha1": "8467a910154c81a0fe899704eed5d5a26e91216c"
+    },
+    {
+      "path": "src/libs/thorvg/tvgSaveModule.h",
+      "git_blob_sha1": "abfd5381af5960cc70a9a942e95f02d321ebb8ed"
+    },
+    {
+      "path": "src/libs/thorvg/tvgScene.h",
+      "git_blob_sha1": "8347d924de20a467c430836dc836eb43ff5feacd"
+    },
+    {
+      "path": "src/libs/thorvg/tvgShape.h",
+      "git_blob_sha1": "bb5e6f37f197d5c4eae6b67db2c590a5f93c144e"
+    },
+    {
+      "path": "src/libs/thorvg/tvgStr.h",
+      "git_blob_sha1": "154a1995a341fccc9298e77b7dee4723604fa480"
+    },
+    {
+      "path": "src/libs/thorvg/tvgSvgCssStyle.h",
+      "git_blob_sha1": "24812b3e1ac2e1677d182c638898b41dbb5a29c6"
+    },
+    {
+      "path": "src/libs/thorvg/tvgSvgLoader.h",
+      "git_blob_sha1": "d5cd7bb5ee2a78d5e48265035909f7d6cd57b459"
+    },
+    {
+      "path": "src/libs/thorvg/tvgSvgLoaderCommon.h",
+      "git_blob_sha1": "b0373908bb18a9a1bde067c3ed283d0424b18fd8"
+    },
+    {
+      "path": "src/libs/thorvg/tvgSvgPath.h",
+      "git_blob_sha1": "673fa0ddad2e0bf1ead2e4867969383d03da9e56"
+    },
+    {
+      "path": "src/libs/thorvg/tvgSvgSceneBuilder.h",
+      "git_blob_sha1": "8ab1b6721db752dadacab49fe69712c2592569ff"
+    },
+    {
+      "path": "src/libs/thorvg/tvgSvgUtil.h",
+      "git_blob_sha1": "cc4b54c0d040e114983c56e5b6969308bfc20328"
+    },
+    {
+      "path": "src/libs/thorvg/tvgSwCommon.h",
+      "git_blob_sha1": "182cf8fa3c3f93107472335808ce222c7b3f1246"
+    },
+    {
+      "path": "src/libs/thorvg/tvgSwRasterAvx.h",
+      "git_blob_sha1": "82c177ce30388f86b7bd766de9246f27d4ea4368"
+    },
+    {
+      "path": "src/libs/thorvg/tvgSwRasterC.h",
+      "git_blob_sha1": "bc5211e5ee0f9e71261fdddf67a9c3fb3a2ab440"
+    },
+    {
+      "path": "src/libs/thorvg/tvgSwRasterNeon.h",
+      "git_blob_sha1": "a84bfe87db3aae9df69f2fd1e8df760f77d9fa0c"
+    },
+    {
+      "path": "src/libs/thorvg/tvgSwRasterTexmap.h",
+      "git_blob_sha1": "6ef2e320478077a7dae4d4d863fcdb1654e7be95"
+    },
+    {
+      "path": "src/libs/thorvg/tvgSwRenderer.h",
+      "git_blob_sha1": "593ba52e4b19854cc187b2047b84190d8c32a333"
+    },
+    {
+      "path": "src/libs/thorvg/tvgTaskScheduler.h",
+      "git_blob_sha1": "af1334b79018dbe00a136e09eabfaed7bb1c21f8"
+    },
+    {
+      "path": "src/libs/thorvg/tvgText.h",
+      "git_blob_sha1": "89cef1879ba9d2ff87760c70253489dde883f8fa"
+    },
+    {
+      "path": "src/libs/thorvg/tvgXmlParser.h",
+      "git_blob_sha1": "be0806860891bf7ab017a0c16f3dab9328592c06"
+    },
+    {
+      "path": "src/libs/tiny_ttf/lv_tiny_ttf.h",
+      "git_blob_sha1": "b6e7dc0a8e30253e92f3a32690da6f86b74ff94d"
+    },
+    {
+      "path": "src/libs/tiny_ttf/stb_rect_pack.h",
+      "git_blob_sha1": "b4c8b4d0b214ff22990b967950cb89fe01cba1d4"
+    },
+    {
+      "path": "src/libs/tiny_ttf/stb_truetype_htcw.h",
+      "git_blob_sha1": "1cd3e2abe9e9d46362ec3ae5918ea7f00861e52f"
+    },
+    {
+      "path": "src/libs/tjpgd/lv_tjpgd.h",
+      "git_blob_sha1": "ec35800b236699f6cd2bccd20cd20c10c06073c5"
+    },
+    {
+      "path": "src/libs/tjpgd/tjpgd.h",
+      "git_blob_sha1": "887038a2b733980e7289d61a3516dfbf9492446e"
+    },
+    {
+      "path": "src/libs/tjpgd/tjpgdcnf.h",
+      "git_blob_sha1": "dc27d6a959b8fce85354ba55ce20d99641e6160f"
+    },
+    {
+      "path": "src/lv_api_map_v8.h",
+      "git_blob_sha1": "822450f5745016c2aa7a8dac9dd6853b561688a7"
+    },
+    {
+      "path": "src/lv_api_map_v9_0.h",
+      "git_blob_sha1": "b0d22cdf505eaa52b009dc485c41c7eb0f9e78f6"
+    },
+    {
+      "path": "src/lv_api_map_v9_1.h",
+      "git_blob_sha1": "3264b9abef91650c7b771175a1f82ac7b7cce4c7"
+    },
+    {
+      "path": "src/lv_conf_internal.h",
+      "git_blob_sha1": "0a66d949e98d0f936224969a6aeeb634a3707250"
+    },
+    {
+      "path": "src/lv_conf_kconfig.h",
+      "git_blob_sha1": "7796e0fb9488df1ba39e2d99dc0c241e214c4c86"
+    },
+    {
+      "path": "src/lv_init.c",
+      "git_blob_sha1": "a019d6e573dac373e7335c2c864a7fc332322cc0"
+    },
+    {
+      "path": "src/lv_init.h",
+      "git_blob_sha1": "0815142cbf08f20793a053469b19e541d0459511"
+    },
+    {
+      "path": "src/lvgl.h",
+      "git_blob_sha1": "f49fcc71ca7ad66b56985971b8bd24ca8e4c6172"
+    },
+    {
+      "path": "src/lvgl_private.h",
+      "git_blob_sha1": "8ab64e97385da33a28da546864eae3da6ec11ff0"
+    },
+    {
+      "path": "src/misc/cache/lv_cache.c",
+      "git_blob_sha1": "0518ab5e129be80917b70f485367df8d27629585"
+    },
+    {
+      "path": "src/misc/cache/lv_cache.h",
+      "git_blob_sha1": "ab488bec660cd5b3d849e85dc35f8d3b482f3aa8"
+    },
+    {
+      "path": "src/misc/cache/lv_cache_entry.c",
+      "git_blob_sha1": "e0cc66434514ffaf9c4027db6b85a96dd3bcc7cd"
+    },
+    {
+      "path": "src/misc/cache/lv_cache_entry.h",
+      "git_blob_sha1": "947f71d723f0130da8158cb25e511a120af072f0"
+    },
+    {
+      "path": "src/misc/cache/lv_cache_entry_private.h",
+      "git_blob_sha1": "f8d41bb9f9a4941c842da603d477f356c3b4c639"
+    },
+    {
+      "path": "src/misc/cache/lv_cache_lru_rb.c",
+      "git_blob_sha1": "0a73102d1f4c320c2e0c38a8e98d56a663236af4"
+    },
+    {
+      "path": "src/misc/cache/lv_cache_lru_rb.h",
+      "git_blob_sha1": "c0f44f3964013f02befecda43169af0e47ba1370"
+    },
+    {
+      "path": "src/misc/cache/lv_cache_private.h",
+      "git_blob_sha1": "c8ac24993b01d75ed309f45354e786ab481ccadb"
+    },
+    {
+      "path": "src/misc/cache/lv_image_cache.c",
+      "git_blob_sha1": "c2ca4354e6bec6b623226d0fe6abb50a02a7d0c2"
+    },
+    {
+      "path": "src/misc/cache/lv_image_cache.h",
+      "git_blob_sha1": "1900b98e0d049a437d9cc36797f638160f5defe8"
+    },
+    {
+      "path": "src/misc/cache/lv_image_header_cache.c",
+      "git_blob_sha1": "ef124fb0ad0c50fc1c804aed83af9e5c5fa9832e"
+    },
+    {
+      "path": "src/misc/cache/lv_image_header_cache.h",
+      "git_blob_sha1": "bcecfaf6e5bd74fce6195e57b899903e0b1b868b"
+    },
+    {
+      "path": "src/misc/lv_anim.c",
+      "git_blob_sha1": "8fc986764518d9b9fa03d6b59665c714991e1911"
+    },
+    {
+      "path": "src/misc/lv_anim.h",
+      "git_blob_sha1": "0d626c89bc647d2cf567d74f0f2f001672aeb1b0"
+    },
+    {
+      "path": "src/misc/lv_anim_private.h",
+      "git_blob_sha1": "5c25850170c006750e918d3f2da7202753713c2f"
+    },
+    {
+      "path": "src/misc/lv_anim_timeline.c",
+      "git_blob_sha1": "f9cd53056e442445262d7fdc86f50414ca0777fc"
+    },
+    {
+      "path": "src/misc/lv_anim_timeline.h",
+      "git_blob_sha1": "e8fd8be73292be357fc05e59576d10ed6eed4b6e"
+    },
+    {
+      "path": "src/misc/lv_area.c",
+      "git_blob_sha1": "4410076d67e41ffbe75a9d9918d690f4c0d75d88"
+    },
+    {
+      "path": "src/misc/lv_area.h",
+      "git_blob_sha1": "0798c74fb7fceb90f8ab07a0c182114af1e50666"
+    },
+    {
+      "path": "src/misc/lv_area_private.h",
+      "git_blob_sha1": "bebca59406277fb2921635c5070d00caa77aed57"
+    },
+    {
+      "path": "src/misc/lv_array.c",
+      "git_blob_sha1": "39382bcbf996aef296a06a09942c02307179b753"
+    },
+    {
+      "path": "src/misc/lv_array.h",
+      "git_blob_sha1": "e63f5631842c8f426dcd0cbb0230438f8e5fe4c9"
+    },
+    {
+      "path": "src/misc/lv_assert.h",
+      "git_blob_sha1": "c9dc849c76ff84847ef9ca01566b10563a4185c8"
+    },
+    {
+      "path": "src/misc/lv_async.c",
+      "git_blob_sha1": "e1657aeb439ed144f513c7d14988d306f31b8ef1"
+    },
+    {
+      "path": "src/misc/lv_async.h",
+      "git_blob_sha1": "362a0ffade29f5268d28b7e49870f3977dc13850"
+    },
+    {
+      "path": "src/misc/lv_bidi.c",
+      "git_blob_sha1": "44f014e28e11eb56d7d35b42a5f42ca75d6b8482"
+    },
+    {
+      "path": "src/misc/lv_bidi.h",
+      "git_blob_sha1": "77575efb3ae209d7f4d5123e81ded859c379de48"
+    },
+    {
+      "path": "src/misc/lv_bidi_private.h",
+      "git_blob_sha1": "0b684daecf9d954f7b3faad7007090abca8d829e"
+    },
+    {
+      "path": "src/misc/lv_color.c",
+      "git_blob_sha1": "d62f280b10d4eccbc311372fad3528607cb76074"
+    },
+    {
+      "path": "src/misc/lv_color.h",
+      "git_blob_sha1": "6328c0d2ce9df886632215d9eacd15cd9745f38c"
+    },
+    {
+      "path": "src/misc/lv_color_op.c",
+      "git_blob_sha1": "a26f2b453fcc7d4dc875de7bc74c7e2e905c4455"
+    },
+    {
+      "path": "src/misc/lv_color_op.h",
+      "git_blob_sha1": "0a59de35dece738da0d10ea2163f99e0f245e7ee"
+    },
+    {
+      "path": "src/misc/lv_color_op_private.h",
+      "git_blob_sha1": "d6516ebd0280cea97cb59da43567ae65973b6704"
+    },
+    {
+      "path": "src/misc/lv_event.c",
+      "git_blob_sha1": "ec985ed25c91346c95c84fa0d6d14435e11f9d6d"
+    },
+    {
+      "path": "src/misc/lv_event.h",
+      "git_blob_sha1": "61518e96a1209b44a501eec45695a899fc763ccb"
+    },
+    {
+      "path": "src/misc/lv_event_private.h",
+      "git_blob_sha1": "b31ca81b8abe63ebea50740d2ae896b8a2c8094c"
+    },
+    {
+      "path": "src/misc/lv_fs.c",
+      "git_blob_sha1": "f713698806af2dd0d11c446315e49a1c598eac9b"
+    },
+    {
+      "path": "src/misc/lv_fs.h",
+      "git_blob_sha1": "c6f938b7df1f39c9280116917c9dbac0eeffabd6"
+    },
+    {
+      "path": "src/misc/lv_fs_private.h",
+      "git_blob_sha1": "f8bb4bbd35e4d993ee45e812e4fed04af7c4b638"
+    },
+    {
+      "path": "src/misc/lv_ll.c",
+      "git_blob_sha1": "ca1339ec5659376170aa53c3b03275aaeca439ca"
+    },
+    {
+      "path": "src/misc/lv_ll.h",
+      "git_blob_sha1": "ee0836ef5e6a51666ffdbcb9787df22faff317af"
+    },
+    {
+      "path": "src/misc/lv_log.c",
+      "git_blob_sha1": "3f3caec8ddb92ee676d50c9eaafe21f81993827a"
+    },
+    {
+      "path": "src/misc/lv_log.h",
+      "git_blob_sha1": "7774ba6fc9c80ad3dcd115ecaa0ad4ecd0483425"
+    },
+    {
+      "path": "src/misc/lv_lru.c",
+      "git_blob_sha1": "f8d4c0682aa2f7b430b7f80de2c6f10c67046cad"
+    },
+    {
+      "path": "src/misc/lv_lru.h",
+      "git_blob_sha1": "1bb25861facf3c257a17eb3b810e80ee05685271"
+    },
+    {
+      "path": "src/misc/lv_math.c",
+      "git_blob_sha1": "bd728fbcfbf382cc06501f05189f0d3186c568f7"
+    },
+    {
+      "path": "src/misc/lv_math.h",
+      "git_blob_sha1": "05e159f13620811979ffd2a04e713bdfa2cd2dbd"
+    },
+    {
+      "path": "src/misc/lv_matrix.c",
+      "git_blob_sha1": "4a6bb6374e3d80f32fe97023a7b2412625aef426"
+    },
+    {
+      "path": "src/misc/lv_matrix.h",
+      "git_blob_sha1": "9583fa9af66a98134c9d42c5fabd6131fa60b535"
+    },
+    {
+      "path": "src/misc/lv_palette.c",
+      "git_blob_sha1": "cbcdf4e64c895966c1c120fd0131c6dd5c0d5ac2"
+    },
+    {
+      "path": "src/misc/lv_palette.h",
+      "git_blob_sha1": "d2f408ca27982b6f18eb9049d46952e725a9dbe9"
+    },
+    {
+      "path": "src/misc/lv_profiler.h",
+      "git_blob_sha1": "47d5bd243666e337b6b1ec9c5d9f6256fa5a609c"
+    },
+    {
+      "path": "src/misc/lv_profiler_builtin.c",
+      "git_blob_sha1": "b6b6fd435dd59f007bf06439788c4bfe84acffa1"
+    },
+    {
+      "path": "src/misc/lv_profiler_builtin.h",
+      "git_blob_sha1": "aa0220b20ff84bc596d551274f7eeb356419cff5"
+    },
+    {
+      "path": "src/misc/lv_profiler_builtin_private.h",
+      "git_blob_sha1": "3fb9938a2a4f3dae459f6e02a67ff27ace1696e1"
+    },
+    {
+      "path": "src/misc/lv_rb.c",
+      "git_blob_sha1": "8a7328caaa03e158f4cdd453ab7101fb88a06d6a"
+    },
+    {
+      "path": "src/misc/lv_rb.h",
+      "git_blob_sha1": "bec0a788f72804e4e3bfd3ad033e7c5eb4835a24"
+    },
+    {
+      "path": "src/misc/lv_rb_private.h",
+      "git_blob_sha1": "327b7b0be1b8f289ad1f0ee06e5c90096e00671a"
+    },
+    {
+      "path": "src/misc/lv_style.c",
+      "git_blob_sha1": "d137d67eb8f9481f6c10c7b9cffaab33de9a699e"
+    },
+    {
+      "path": "src/misc/lv_style.h",
+      "git_blob_sha1": "dcce7dcd6b2d553719de059c393f9c0e242f0557"
+    },
+    {
+      "path": "src/misc/lv_style_gen.c",
+      "git_blob_sha1": "233cf7b9416152863047ce89504d1a49c39b2c72"
+    },
+    {
+      "path": "src/misc/lv_style_gen.h",
+      "git_blob_sha1": "5714e74d980ffa7c2e8068d18006af728905ca22"
+    },
+    {
+      "path": "src/misc/lv_style_private.h",
+      "git_blob_sha1": "8a88185d6b32178a94103a5a412d3fced9cc5c78"
+    },
+    {
+      "path": "src/misc/lv_templ.c",
+      "git_blob_sha1": "939930cf2e133b7c985416433d2bc9446f92be64"
+    },
+    {
+      "path": "src/misc/lv_templ.h",
+      "git_blob_sha1": "f7e3c268132366acc8ef2270fad97a3f7e376ca4"
+    },
+    {
+      "path": "src/misc/lv_text.c",
+      "git_blob_sha1": "11081f9594b627dd1282f7c7c9cfcdc5b62557cf"
+    },
+    {
+      "path": "src/misc/lv_text.h",
+      "git_blob_sha1": "f2407dd8e16381e6e6974d70ea8a6c3fcf21dc24"
+    },
+    {
+      "path": "src/misc/lv_text_ap.c",
+      "git_blob_sha1": "320debd0f298713377d05ffac8c6d68d281ad2e8"
+    },
+    {
+      "path": "src/misc/lv_text_ap.h",
+      "git_blob_sha1": "cac7c71214d0e2325a0ae04bd28c5e4a6cfe573c"
+    },
+    {
+      "path": "src/misc/lv_text_private.h",
+      "git_blob_sha1": "858f59383e8ce817518e420689ac90d18c0ab648"
+    },
+    {
+      "path": "src/misc/lv_timer.c",
+      "git_blob_sha1": "959ce53b9d5b87b7966b0a4a524ce7e5822c6f45"
+    },
+    {
+      "path": "src/misc/lv_timer.h",
+      "git_blob_sha1": "be2500333110eea782665a0a787af1caca79c2df"
+    },
+    {
+      "path": "src/misc/lv_timer_private.h",
+      "git_blob_sha1": "b7f42b0a157c5f4a6b5062fc013d0fcb11c9aa5b"
+    },
+    {
+      "path": "src/misc/lv_types.h",
+      "git_blob_sha1": "b362e7ad0fdf2ae4ad9dda6ad483a9e27c230836"
+    },
+    {
+      "path": "src/misc/lv_utils.c",
+      "git_blob_sha1": "868692170c8f37dc4473a0c1d4fbc50170eb431c"
+    },
+    {
+      "path": "src/misc/lv_utils.h",
+      "git_blob_sha1": "7a8d61014cab2bc9df17a74e9866d58db7eb398f"
+    },
+    {
+      "path": "src/osal/lv_cmsis_rtos2.c",
+      "git_blob_sha1": "ed414c8dab0e319af503684704a1f3d808d8d256"
+    },
+    {
+      "path": "src/osal/lv_cmsis_rtos2.h",
+      "git_blob_sha1": "62481e7e818bce1b8104e33b28ebfd827605d48a"
+    },
+    {
+      "path": "src/osal/lv_freertos.c",
+      "git_blob_sha1": "f65a299aabcb31e778f351fd354942acec2c6349"
+    },
+    {
+      "path": "src/osal/lv_freertos.h",
+      "git_blob_sha1": "67a5a1e7fb8b412b44dff690a5c4e2dd3380e6cc"
+    },
+    {
+      "path": "src/osal/lv_mqx.c",
+      "git_blob_sha1": "fed82f4289cf5a5d681b1ceb3fb653f67b2c2cf5"
+    },
+    {
+      "path": "src/osal/lv_mqx.h",
+      "git_blob_sha1": "601f596a4b9fbbaaaee260410f1979e9c16ec652"
+    },
+    {
+      "path": "src/osal/lv_os.c",
+      "git_blob_sha1": "7b775f034c7e9e38504f02a13a8ba56f430d93fe"
+    },
+    {
+      "path": "src/osal/lv_os.h",
+      "git_blob_sha1": "d0a4e02f5c95809e7033ce6e6c7553401f4f3288"
+    },
+    {
+      "path": "src/osal/lv_os_none.c",
+      "git_blob_sha1": "547810db734fabbb7be568eaedcca23df5a67f6d"
+    },
+    {
+      "path": "src/osal/lv_os_none.h",
+      "git_blob_sha1": "e08a0dc4293a307be178b2173c07cd0e33e5bb5e"
+    },
+    {
+      "path": "src/osal/lv_os_private.h",
+      "git_blob_sha1": "4fe08cd2fdb6da64a24764426cb7cf949e2a4e13"
+    },
+    {
+      "path": "src/osal/lv_pthread.c",
+      "git_blob_sha1": "268f055c21f077f4d438f7eee4b5929935b30945"
+    },
+    {
+      "path": "src/osal/lv_pthread.h",
+      "git_blob_sha1": "e7abc90cf198b2f93d13762345918df98626b84a"
+    },
+    {
+      "path": "src/osal/lv_rtthread.c",
+      "git_blob_sha1": "e781634e16e00afdfb9391023e8136cd41b5a817"
+    },
+    {
+      "path": "src/osal/lv_rtthread.h",
+      "git_blob_sha1": "255a47afe9e2fd57601d3e4875b41e526655a14c"
+    },
+    {
+      "path": "src/osal/lv_windows.c",
+      "git_blob_sha1": "78ac293533d6a81cafc1c7714fc7d7a8e2cb0a21"
+    },
+    {
+      "path": "src/osal/lv_windows.h",
+      "git_blob_sha1": "fd930e872041712604c5093b2db3c519aa30d662"
+    },
+    {
+      "path": "src/others/file_explorer/lv_file_explorer.c",
+      "git_blob_sha1": "bb0220c89eaf1da28eae018de3afefd5b516a688"
+    },
+    {
+      "path": "src/others/file_explorer/lv_file_explorer.h",
+      "git_blob_sha1": "8dd7762f5dcdac3632c5e1ea02a043232740228f"
+    },
+    {
+      "path": "src/others/file_explorer/lv_file_explorer_private.h",
+      "git_blob_sha1": "1b7eca1dd8f770d1ccde54cc8b8a45219c3c5fda"
+    },
+    {
+      "path": "src/others/fragment/lv_fragment.c",
+      "git_blob_sha1": "6deb4e7851f76f4630d43c34f9dc02583a3ab6c4"
+    },
+    {
+      "path": "src/others/fragment/lv_fragment.h",
+      "git_blob_sha1": "f93473757bdbc51a4f8bf2c85d6261d3a865c406"
+    },
+    {
+      "path": "src/others/fragment/lv_fragment_manager.c",
+      "git_blob_sha1": "a8565185b373082c3ce740306ebf01b947bc00fd"
+    },
+    {
+      "path": "src/others/fragment/lv_fragment_private.h",
+      "git_blob_sha1": "3af36ddbc2cd3c7d5e1430768d36d0c1f06b5b0c"
+    },
+    {
+      "path": "src/others/gridnav/lv_gridnav.c",
+      "git_blob_sha1": "5f348af58cefcfa8894effb036a0099b9a646e39"
+    },
+    {
+      "path": "src/others/gridnav/lv_gridnav.h",
+      "git_blob_sha1": "65bd1e092705c9e5c1061f7904e7efaffec9f7af"
+    },
+    {
+      "path": "src/others/ime/lv_ime_pinyin.c",
+      "git_blob_sha1": "8382269b75b15faa7e6042cb6a28bdd71855d4fa"
+    },
+    {
+      "path": "src/others/ime/lv_ime_pinyin.h",
+      "git_blob_sha1": "ff85eee8895ccf05b808351804722d5734078b1b"
+    },
+    {
+      "path": "src/others/ime/lv_ime_pinyin_private.h",
+      "git_blob_sha1": "6ec42fc0985508b375c414cc10ddc2d31d353a21"
+    },
+    {
+      "path": "src/others/imgfont/lv_imgfont.c",
+      "git_blob_sha1": "edc69907d64f76ba9c59756feb8f7046fe8c711b"
+    },
+    {
+      "path": "src/others/imgfont/lv_imgfont.h",
+      "git_blob_sha1": "68c317a6da4d950ec09995b659ac08d0673e9244"
+    },
+    {
+      "path": "src/others/monkey/lv_monkey.c",
+      "git_blob_sha1": "97ba10a51ad72885a4a8f47424e5aaad883affa4"
+    },
+    {
+      "path": "src/others/monkey/lv_monkey.h",
+      "git_blob_sha1": "6cbe0ec56415b0c2f304743a85724d2a0feb90ec"
+    },
+    {
+      "path": "src/others/monkey/lv_monkey_private.h",
+      "git_blob_sha1": "a08ea073196507b3c56873f395e36ebf50ab592e"
+    },
+    {
+      "path": "src/others/observer/lv_observer.c",
+      "git_blob_sha1": "8d43f52de79e147de24f748f60c88391289394cc"
+    },
+    {
+      "path": "src/others/observer/lv_observer.h",
+      "git_blob_sha1": "cec77feed286decef57a794c07defb04d6d300e8"
+    },
+    {
+      "path": "src/others/observer/lv_observer_private.h",
+      "git_blob_sha1": "04a7992ebb802e124150f84006fa00cdaaddd1f5"
+    },
+    {
+      "path": "src/others/snapshot/lv_snapshot.c",
+      "git_blob_sha1": "f3f182b8d46e27a0a986411e31860552dd214ce3"
+    },
+    {
+      "path": "src/others/snapshot/lv_snapshot.h",
+      "git_blob_sha1": "90de106cd7da3329181df59a92a36634d9ad7505"
+    },
+    {
+      "path": "src/others/sysmon/lv_sysmon.c",
+      "git_blob_sha1": "803ce8c5e339df186643ad9126560bcfb0d337fc"
+    },
+    {
+      "path": "src/others/sysmon/lv_sysmon.h",
+      "git_blob_sha1": "0859c064d4af7fd0143d8508695c7d4a19f781a2"
+    },
+    {
+      "path": "src/others/sysmon/lv_sysmon_private.h",
+      "git_blob_sha1": "08d6156d300f1b3bc94d84126abe2428b9166dcf"
+    },
+    {
+      "path": "src/others/vg_lite_tvg/vg_lite.h",
+      "git_blob_sha1": "abbd6e86a317e44ed9a0b37ef7ac5b47c9dda97d"
+    },
+    {
+      "path": "src/others/vg_lite_tvg/vg_lite_matrix.c",
+      "git_blob_sha1": "42f8ce38bc5ed8d2a6a6d1647f99b009598456e9"
+    },
+    {
+      "path": "src/stdlib/builtin/lv_mem_core_builtin.c",
+      "git_blob_sha1": "23a218154cc3637579d0a5abfcebb4b07591a68a"
+    },
+    {
+      "path": "src/stdlib/builtin/lv_sprintf_builtin.c",
+      "git_blob_sha1": "fc34db4d1b55eecc514690c9ab9b480053e61973"
+    },
+    {
+      "path": "src/stdlib/builtin/lv_string_builtin.c",
+      "git_blob_sha1": "f225adccf7f2fc6c1ab0cc9bb43de5d9fcb51d70"
+    },
+    {
+      "path": "src/stdlib/builtin/lv_tlsf.c",
+      "git_blob_sha1": "4232ae32495724a91e2f09904d25e1cf274b67a5"
+    },
+    {
+      "path": "src/stdlib/builtin/lv_tlsf.h",
+      "git_blob_sha1": "4127271dbde596d2df59b79fcfb10c6df1af3a17"
+    },
+    {
+      "path": "src/stdlib/builtin/lv_tlsf_private.h",
+      "git_blob_sha1": "036e9d73ebecee3c08097fa44a78f3140de95665"
+    },
+    {
+      "path": "src/stdlib/clib/lv_mem_core_clib.c",
+      "git_blob_sha1": "9cdddf4d1f38ee1a3d73a835f32e60748965f176"
+    },
+    {
+      "path": "src/stdlib/clib/lv_sprintf_clib.c",
+      "git_blob_sha1": "4f4fb9c74d6d2d5102c3b0af07b913b506c09e29"
+    },
+    {
+      "path": "src/stdlib/clib/lv_string_clib.c",
+      "git_blob_sha1": "fd01b93f9b381169feceb2b016e9ab731d2d8298"
+    },
+    {
+      "path": "src/stdlib/lv_mem.c",
+      "git_blob_sha1": "bfc887fffccc73bf0aed684b51c2aabb7231605c"
+    },
+    {
+      "path": "src/stdlib/lv_mem.h",
+      "git_blob_sha1": "210c18988ac77e54dc46fa220a99334d6d0029ea"
+    },
+    {
+      "path": "src/stdlib/lv_mem_private.h",
+      "git_blob_sha1": "9e70ae1af99a1234b4a2b109d3b05133172ac13c"
+    },
+    {
+      "path": "src/stdlib/lv_sprintf.h",
+      "git_blob_sha1": "a7f2188d623f9e03928759cf46f02e794aa36cea"
+    },
+    {
+      "path": "src/stdlib/lv_string.h",
+      "git_blob_sha1": "10aee500f00719c9710f7b76c77d0a2712c905ea"
+    },
+    {
+      "path": "src/stdlib/micropython/lv_mem_core_micropython.c",
+      "git_blob_sha1": "a671b5e1cc732096f3d79811a51ac339037ad45c"
+    },
+    {
+      "path": "src/stdlib/rtthread/lv_mem_core_rtthread.c",
+      "git_blob_sha1": "29a600a6ad76b9c8458aff24d35991e7ed0e0dfb"
+    },
+    {
+      "path": "src/stdlib/rtthread/lv_sprintf_rtthread.c",
+      "git_blob_sha1": "721f4fd05397e1795fe812134f011dc24e2dfc31"
+    },
+    {
+      "path": "src/stdlib/rtthread/lv_string_rtthread.c",
+      "git_blob_sha1": "2ab0a471737a137e9d69895ee4af8909a5164247"
+    },
+    {
+      "path": "src/themes/default/lv_theme_default.c",
+      "git_blob_sha1": "fa1266219250b8874ad42318731f193c7dd351df"
+    },
+    {
+      "path": "src/themes/default/lv_theme_default.h",
+      "git_blob_sha1": "72d9acbfa1e91a38807c5b513641517c37e9b49f"
+    },
+    {
+      "path": "src/themes/lv_theme.c",
+      "git_blob_sha1": "5dcd6c6aeebe885f0b4e5f6181a3a38aa45dbad7"
+    },
+    {
+      "path": "src/themes/lv_theme.h",
+      "git_blob_sha1": "21cb09b11e6b624946279408e396ad2703a56c9f"
+    },
+    {
+      "path": "src/themes/lv_theme_private.h",
+      "git_blob_sha1": "6fd10a59c2146299bbf736f9e86464840dce1fb0"
+    },
+    {
+      "path": "src/themes/mono/lv_theme_mono.c",
+      "git_blob_sha1": "cd71ecb3de88752a2be7dbabde8901a60cf2f8ca"
+    },
+    {
+      "path": "src/themes/mono/lv_theme_mono.h",
+      "git_blob_sha1": "30ac4c488203b7e00ef4168c482b9cbd00193cc9"
+    },
+    {
+      "path": "src/themes/simple/lv_theme_simple.c",
+      "git_blob_sha1": "8a325550f059dbc6a911ecfd0e6b1adabaf852aa"
+    },
+    {
+      "path": "src/themes/simple/lv_theme_simple.h",
+      "git_blob_sha1": "6717366557ffc0451810b94778f2856c2ff90126"
+    },
+    {
+      "path": "src/tick/lv_tick.c",
+      "git_blob_sha1": "21e22959d935a13a9d214b3f265e76452287bd49"
+    },
+    {
+      "path": "src/tick/lv_tick.h",
+      "git_blob_sha1": "048b93a31ad34eb7cd1578e733a433d2d6e397a2"
+    },
+    {
+      "path": "src/tick/lv_tick_private.h",
+      "git_blob_sha1": "cf8ae9b092d75e742b1de019033df447b3139f3f"
+    },
+    {
+      "path": "src/widgets/animimage/lv_animimage.c",
+      "git_blob_sha1": "548c48c8cbcf02c0bc82a3f6f9a361acbee84631"
+    },
+    {
+      "path": "src/widgets/animimage/lv_animimage.h",
+      "git_blob_sha1": "a2f1926c16adf21b379d3667c230b4f9e8665350"
+    },
+    {
+      "path": "src/widgets/animimage/lv_animimage_private.h",
+      "git_blob_sha1": "c4cf663d567d321e0ff32eb7bbce39a773767a34"
+    },
+    {
+      "path": "src/widgets/arc/lv_arc.c",
+      "git_blob_sha1": "6aa14840d3e0f9ec808230067be3833ecc08b1a1"
+    },
+    {
+      "path": "src/widgets/arc/lv_arc.h",
+      "git_blob_sha1": "f241745ffaa1e7a4c77f35c3b7155246a4830649"
+    },
+    {
+      "path": "src/widgets/arc/lv_arc_private.h",
+      "git_blob_sha1": "03513ea60f62113e2f76d23447dbb95a8cc1c89c"
+    },
+    {
+      "path": "src/widgets/bar/lv_bar.c",
+      "git_blob_sha1": "6fc7b231ac2b3b7b1d2890d00b94b0400870d4c0"
+    },
+    {
+      "path": "src/widgets/bar/lv_bar.h",
+      "git_blob_sha1": "93c88786fbfdec07502bf889d37d6237daa2db5f"
+    },
+    {
+      "path": "src/widgets/bar/lv_bar_private.h",
+      "git_blob_sha1": "1a8dd4bb1ece3b8680ae1b083612e2681bc61f74"
+    },
+    {
+      "path": "src/widgets/button/lv_button.c",
+      "git_blob_sha1": "096dc2954939e19b32ecf4c79a14de9d3310b33b"
+    },
+    {
+      "path": "src/widgets/button/lv_button.h",
+      "git_blob_sha1": "eb7a0a57c06cff12827c0306a912d417264ffb75"
+    },
+    {
+      "path": "src/widgets/button/lv_button_private.h",
+      "git_blob_sha1": "ce310f32c40a0d99a7c56c08c7fee35ffb86333c"
+    },
+    {
+      "path": "src/widgets/buttonmatrix/lv_buttonmatrix.c",
+      "git_blob_sha1": "e20ac2ebe1399298d4caf6d3064fd9f2d8aa4365"
+    },
+    {
+      "path": "src/widgets/buttonmatrix/lv_buttonmatrix.h",
+      "git_blob_sha1": "c2726627c203a8a803129e7cbfde98ee59c294b5"
+    },
+    {
+      "path": "src/widgets/buttonmatrix/lv_buttonmatrix_private.h",
+      "git_blob_sha1": "cab042db9ff79d29ed495954ad843bcaa4b8f4af"
+    },
+    {
+      "path": "src/widgets/calendar/lv_calendar.c",
+      "git_blob_sha1": "560e24a1d183961a9debf9da0f6682c7297b25a8"
+    },
+    {
+      "path": "src/widgets/calendar/lv_calendar.h",
+      "git_blob_sha1": "38c5d644f43fae2c5e62a7681ffa90d32b429c7a"
+    },
+    {
+      "path": "src/widgets/calendar/lv_calendar_chinese.c",
+      "git_blob_sha1": "ee24133ad11fc14ab74f053c7d65535ffaed6eb3"
+    },
+    {
+      "path": "src/widgets/calendar/lv_calendar_chinese.h",
+      "git_blob_sha1": "fb7a1bc0ee7171da7501a2c5971c3c9ba61ba243"
+    },
+    {
+      "path": "src/widgets/calendar/lv_calendar_chinese_private.h",
+      "git_blob_sha1": "5572259e2a7775df218372175ae6bc987492d300"
+    },
+    {
+      "path": "src/widgets/calendar/lv_calendar_header_arrow.c",
+      "git_blob_sha1": "09b201d045bbbaeb74eb0e87a9cba1d83ae6226a"
+    },
+    {
+      "path": "src/widgets/calendar/lv_calendar_header_arrow.h",
+      "git_blob_sha1": "a04b355cc77630885768bf7466acaaad7a7ca509"
+    },
+    {
+      "path": "src/widgets/calendar/lv_calendar_header_dropdown.c",
+      "git_blob_sha1": "41fe53a823fd4184bb0171f29017c63b1519c98e"
+    },
+    {
+      "path": "src/widgets/calendar/lv_calendar_header_dropdown.h",
+      "git_blob_sha1": "1ca87762e2eb751c974ef58ff2f607365f730270"
+    },
+    {
+      "path": "src/widgets/calendar/lv_calendar_private.h",
+      "git_blob_sha1": "d4a9b535b7b8a9c7419c2303331fe5dae6a33cef"
+    },
+    {
+      "path": "src/widgets/canvas/lv_canvas.c",
+      "git_blob_sha1": "4aa46f33b0e6209a8616f5b5642727b227b0a64c"
+    },
+    {
+      "path": "src/widgets/canvas/lv_canvas.h",
+      "git_blob_sha1": "d669b177389d23b16e2d63cbb26c20d8c53174b5"
+    },
+    {
+      "path": "src/widgets/canvas/lv_canvas_private.h",
+      "git_blob_sha1": "e43b8f3f3307524875fcd98e2d895bf33ec09792"
+    },
+    {
+      "path": "src/widgets/chart/lv_chart.c",
+      "git_blob_sha1": "4639cd5a51c1049e7be8a9c5748074e5f093b605"
+    },
+    {
+      "path": "src/widgets/chart/lv_chart.h",
+      "git_blob_sha1": "de2583146688b17fb1840291927815de422c8317"
+    },
+    {
+      "path": "src/widgets/chart/lv_chart_private.h",
+      "git_blob_sha1": "7cf9052aaf8c6e2e13b8272c850dc000fa691d42"
+    },
+    {
+      "path": "src/widgets/checkbox/lv_checkbox.c",
+      "git_blob_sha1": "7a987ef3eb0a02201ad93a8f5e6fb57b3ceee660"
+    },
+    {
+      "path": "src/widgets/checkbox/lv_checkbox.h",
+      "git_blob_sha1": "804ff600fc5c5f2bd2c470faca22fbcd80c489e5"
+    },
+    {
+      "path": "src/widgets/checkbox/lv_checkbox_private.h",
+      "git_blob_sha1": "c927b65f2b59be066494c7a97a61c10cefedde5c"
+    },
+    {
+      "path": "src/widgets/dropdown/lv_dropdown.c",
+      "git_blob_sha1": "517479cdbee7d6802fdb8da159142b61f2edeb9a"
+    },
+    {
+      "path": "src/widgets/dropdown/lv_dropdown.h",
+      "git_blob_sha1": "c9f55be12f795f85dad89e74c1691593cd2a5357"
+    },
+    {
+      "path": "src/widgets/dropdown/lv_dropdown_private.h",
+      "git_blob_sha1": "67d879aa195bda68e80314a0fe7117b5fce6c60d"
+    },
+    {
+      "path": "src/widgets/image/lv_image.c",
+      "git_blob_sha1": "5fdcc12d5b77cc4f42a4b625f3c2c2a16ac6b226"
+    },
+    {
+      "path": "src/widgets/image/lv_image.h",
+      "git_blob_sha1": "abc52177471363023443829e5e6271c46b214097"
+    },
+    {
+      "path": "src/widgets/image/lv_image_private.h",
+      "git_blob_sha1": "e880f5d68b5d3b21bd1b1da78fea3a55aa870775"
+    },
+    {
+      "path": "src/widgets/imagebutton/lv_imagebutton.c",
+      "git_blob_sha1": "3aef3a42bdf4236a3da2a57882512c189bab2fdf"
+    },
+    {
+      "path": "src/widgets/imagebutton/lv_imagebutton.h",
+      "git_blob_sha1": "ed6dc3a5e5d966cced480e07ff3de99969a78881"
+    },
+    {
+      "path": "src/widgets/imagebutton/lv_imagebutton_private.h",
+      "git_blob_sha1": "bf9c4ef24626869b0d82cb44ffb0841d7c903d92"
+    },
+    {
+      "path": "src/widgets/keyboard/lv_keyboard.c",
+      "git_blob_sha1": "e781eb3974e8eff249069e8ac9143f5cdacb5e68"
+    },
+    {
+      "path": "src/widgets/keyboard/lv_keyboard.h",
+      "git_blob_sha1": "f177c1844f43d59f7c92f89393f009a59eb39827"
+    },
+    {
+      "path": "src/widgets/keyboard/lv_keyboard_private.h",
+      "git_blob_sha1": "757b23e9e096cfae767e6483bd2f6a1c1b60ce8a"
+    },
+    {
+      "path": "src/widgets/label/lv_label.c",
+      "git_blob_sha1": "ae07112519e9796b3d789b4045c7725d39fbf44a"
+    },
+    {
+      "path": "src/widgets/label/lv_label.h",
+      "git_blob_sha1": "86964f33f391ef1e710e2f4bdbde2f8e4bc2736f"
+    },
+    {
+      "path": "src/widgets/label/lv_label_private.h",
+      "git_blob_sha1": "81a2e68ec383f12ff0ca106254eb807e16f6c8cf"
+    },
+    {
+      "path": "src/widgets/led/lv_led.c",
+      "git_blob_sha1": "6a8c29bbf67637ca97ceee1d8523ea4bab8b2f40"
+    },
+    {
+      "path": "src/widgets/led/lv_led.h",
+      "git_blob_sha1": "c085a97f6646ff53b813f6e4a920a0e3b71a04f0"
+    },
+    {
+      "path": "src/widgets/led/lv_led_private.h",
+      "git_blob_sha1": "af76b4fb9f44de4914e701aeb5934576e83e44f8"
+    },
+    {
+      "path": "src/widgets/line/lv_line.c",
+      "git_blob_sha1": "a251aae728ac2ebda70819a35ab3720409246768"
+    },
+    {
+      "path": "src/widgets/line/lv_line.h",
+      "git_blob_sha1": "d6a1d603ea3dcb65a9b0759f285c412346af7c93"
+    },
+    {
+      "path": "src/widgets/line/lv_line_private.h",
+      "git_blob_sha1": "4cbce9c8ea64243bc576d4e78f727bd8d010f29e"
+    },
+    {
+      "path": "src/widgets/list/lv_list.c",
+      "git_blob_sha1": "3556ef1dc76a651f02b7f131796d31f9e29918a3"
+    },
+    {
+      "path": "src/widgets/list/lv_list.h",
+      "git_blob_sha1": "0c3894d0451e3211e756129c106f87abac82dcce"
+    },
+    {
+      "path": "src/widgets/lottie/lv_lottie.c",
+      "git_blob_sha1": "48ae258146ca0260a04e0ca709d1504b45e98489"
+    },
+    {
+      "path": "src/widgets/lottie/lv_lottie.h",
+      "git_blob_sha1": "1ccfe164a5b433e3455b022d5f5779f8e91b3021"
+    },
+    {
+      "path": "src/widgets/lottie/lv_lottie_private.h",
+      "git_blob_sha1": "6362afb89b2f4424c20e3461877a642972b40df4"
+    },
+    {
+      "path": "src/widgets/menu/lv_menu.c",
+      "git_blob_sha1": "f9b49fc0ee1a70d42db402dd4dc83fa061d65b20"
+    },
+    {
+      "path": "src/widgets/menu/lv_menu.h",
+      "git_blob_sha1": "3d75f8d9af28bdc596f57c5cb2ec3a663c1d8921"
+    },
+    {
+      "path": "src/widgets/menu/lv_menu_private.h",
+      "git_blob_sha1": "fca898df9eecd410b2f8206b5f9c58320d407c1e"
+    },
+    {
+      "path": "src/widgets/msgbox/lv_msgbox.c",
+      "git_blob_sha1": "98ad81e16d0385790fc4b7dd0436598dd48a36f0"
+    },
+    {
+      "path": "src/widgets/msgbox/lv_msgbox.h",
+      "git_blob_sha1": "5605b802814af3f43f6dc33a58f634312663a421"
+    },
+    {
+      "path": "src/widgets/msgbox/lv_msgbox_private.h",
+      "git_blob_sha1": "640a39cbd1d2b6d5c0e36c5ced8996d1a36bdce6"
+    },
+    {
+      "path": "src/widgets/objx_templ/lv_objx_templ.c",
+      "git_blob_sha1": "eaf5c12707a1e40e1db4affd41612056649838cc"
+    },
+    {
+      "path": "src/widgets/objx_templ/lv_objx_templ.h",
+      "git_blob_sha1": "ccf1e1c3ec61fc0fd609c28448a968957f29bdb6"
+    },
+    {
+      "path": "src/widgets/property/lv_dropdown_properties.c",
+      "git_blob_sha1": "9477ca3c8376a488b2077937707e406fdb45e759"
+    },
+    {
+      "path": "src/widgets/property/lv_image_properties.c",
+      "git_blob_sha1": "fd7fd7d1b432dea2384151a41e79616ca8ff74cd"
+    },
+    {
+      "path": "src/widgets/property/lv_keyboard_properties.c",
+      "git_blob_sha1": "90cfc3e268e453cf0836769997359a7ea71bdafb"
+    },
+    {
+      "path": "src/widgets/property/lv_label_properties.c",
+      "git_blob_sha1": "5fc6708b7c3d1b18a34a8237747cf6376def9190"
+    },
+    {
+      "path": "src/widgets/property/lv_obj_properties.c",
+      "git_blob_sha1": "1008b3691adebd168a13a665086b0c5eb8eef491"
+    },
+    {
+      "path": "src/widgets/property/lv_obj_property_names.h",
+      "git_blob_sha1": "4b4ff67aea5b67179ab1132847e27ac307f32e81"
+    },
+    {
+      "path": "src/widgets/property/lv_roller_properties.c",
+      "git_blob_sha1": "72aa01783a0ec205d60b1b0e25c99488848bc7bd"
+    },
+    {
+      "path": "src/widgets/property/lv_style_properties.c",
+      "git_blob_sha1": "22ef3e2572a9434cf3a3ab386b7a618b927a84df"
+    },
+    {
+      "path": "src/widgets/property/lv_style_properties.h",
+      "git_blob_sha1": "146f35ad7ec4c30baedbff594fe724b727d942ad"
+    },
+    {
+      "path": "src/widgets/property/lv_textarea_properties.c",
+      "git_blob_sha1": "7bed65eabd7ac12ea8473672ed8492db3a6f4b0a"
+    },
+    {
+      "path": "src/widgets/roller/lv_roller.c",
+      "git_blob_sha1": "b762a1e254d58a5f30d04d8d22d2c2d9445677ee"
+    },
+    {
+      "path": "src/widgets/roller/lv_roller.h",
+      "git_blob_sha1": "e6a94b2997b889e7f4ed3633b824d38b687263f8"
+    },
+    {
+      "path": "src/widgets/roller/lv_roller_private.h",
+      "git_blob_sha1": "5f784a3bb04997eef6c6e062376246d5ae73dea3"
+    },
+    {
+      "path": "src/widgets/scale/lv_scale.c",
+      "git_blob_sha1": "fbab4601803f2f239f656b425a8033be30f7f501"
+    },
+    {
+      "path": "src/widgets/scale/lv_scale.h",
+      "git_blob_sha1": "ad1bd2b456c2d0a2fe58a06cc964096e764f89a3"
+    },
+    {
+      "path": "src/widgets/scale/lv_scale_private.h",
+      "git_blob_sha1": "c755c177480716e90f70c113b1046413b6331ee7"
+    },
+    {
+      "path": "src/widgets/slider/lv_slider.c",
+      "git_blob_sha1": "e58597c88ade13ba72757cf18bf1ab52128d9b40"
+    },
+    {
+      "path": "src/widgets/slider/lv_slider.h",
+      "git_blob_sha1": "5f08a5c58043ff55e98c8032adeea16cc5671db3"
+    },
+    {
+      "path": "src/widgets/slider/lv_slider_private.h",
+      "git_blob_sha1": "a1eab2f5bff47f4e11e43c2cc0142cdc71d04a58"
+    },
+    {
+      "path": "src/widgets/span/lv_span.c",
+      "git_blob_sha1": "c4afb43739e61d871fc8c101fd21a8e99dd30250"
+    },
+    {
+      "path": "src/widgets/span/lv_span.h",
+      "git_blob_sha1": "f0406b91816a4a8fa1466e2d47e93f6c989b9015"
+    },
+    {
+      "path": "src/widgets/span/lv_span_private.h",
+      "git_blob_sha1": "099ea1b7e62e83c7697908ef1060a788a6936480"
+    },
+    {
+      "path": "src/widgets/spinbox/lv_spinbox.c",
+      "git_blob_sha1": "69e8d13da5d2e1acca53bdf16ae21b9b35ec22fb"
+    },
+    {
+      "path": "src/widgets/spinbox/lv_spinbox.h",
+      "git_blob_sha1": "ae3fdb0c406380aeda24e2ea21b4f3d37320f349"
+    },
+    {
+      "path": "src/widgets/spinbox/lv_spinbox_private.h",
+      "git_blob_sha1": "0569f210305ec4bc200b53717c0212914e8d7a51"
+    },
+    {
+      "path": "src/widgets/spinner/lv_spinner.c",
+      "git_blob_sha1": "18cb0050f1fbb6544153d97fbd2ce065feb49bad"
+    },
+    {
+      "path": "src/widgets/spinner/lv_spinner.h",
+      "git_blob_sha1": "92445631b7ec4987578da79238d569081b3b7691"
+    },
+    {
+      "path": "src/widgets/switch/lv_switch.c",
+      "git_blob_sha1": "89b4b6363e0bbed87932f19be977c87473ea2d07"
+    },
+    {
+      "path": "src/widgets/switch/lv_switch.h",
+      "git_blob_sha1": "989a3dd1b981c41720639e8ca98ed9bfdfb84556"
+    },
+    {
+      "path": "src/widgets/switch/lv_switch_private.h",
+      "git_blob_sha1": "7bc25763c2cb7e002f3475fe84f1396c0713f71e"
+    },
+    {
+      "path": "src/widgets/table/lv_table.c",
+      "git_blob_sha1": "affb99b8876b6240b0c7f0b8dd0dcb763f1fd724"
+    },
+    {
+      "path": "src/widgets/table/lv_table.h",
+      "git_blob_sha1": "0d615a1b14ea01128c73a223b0661760e312085c"
+    },
+    {
+      "path": "src/widgets/table/lv_table_private.h",
+      "git_blob_sha1": "498ef5e28bafa07d4d32d4b137ca55de90e87009"
+    },
+    {
+      "path": "src/widgets/tabview/lv_tabview.c",
+      "git_blob_sha1": "29e3e2e274fc9cfcb5b40b8983070ada8273f69c"
+    },
+    {
+      "path": "src/widgets/tabview/lv_tabview.h",
+      "git_blob_sha1": "f9bfdcc184a84a62dfb8969a8b7f5d27cc9f1e7a"
+    },
+    {
+      "path": "src/widgets/tabview/lv_tabview_private.h",
+      "git_blob_sha1": "b08c968208b1684b1cda146493f0753dafdcffd0"
+    },
+    {
+      "path": "src/widgets/textarea/lv_textarea.c",
+      "git_blob_sha1": "1958371b326ef6f85b294539e419b0ec2cdf6d56"
+    },
+    {
+      "path": "src/widgets/textarea/lv_textarea.h",
+      "git_blob_sha1": "0804029d194906a338f03f9de55ab428a6fc8b85"
+    },
+    {
+      "path": "src/widgets/textarea/lv_textarea_private.h",
+      "git_blob_sha1": "e2d3aaab93ea70b7e92d84c347927b5753fce4ef"
+    },
+    {
+      "path": "src/widgets/tileview/lv_tileview.c",
+      "git_blob_sha1": "8844a89ae716f9239cd63fbf9e109b7277fa7e6c"
+    },
+    {
+      "path": "src/widgets/tileview/lv_tileview.h",
+      "git_blob_sha1": "d373a2684242cffd739514bb7b16086688a59412"
+    },
+    {
+      "path": "src/widgets/tileview/lv_tileview_private.h",
+      "git_blob_sha1": "5c91a409ee3889ff05465c7a3987a39e60032aa3"
+    },
+    {
+      "path": "src/widgets/win/lv_win.c",
+      "git_blob_sha1": "508d2f0105a4ed81f2cde7e71ed565e9441496de"
+    },
+    {
+      "path": "src/widgets/win/lv_win.h",
+      "git_blob_sha1": "8191bd116a398d52c730315c9222bc05d62f06f5"
+    },
+    {
+      "path": "src/widgets/win/lv_win_private.h",
+      "git_blob_sha1": "015224712e09c0cd1387c99ac2c2d057664e3c49"
+    }
+  ]
+}

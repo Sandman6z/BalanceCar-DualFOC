@@ -1,0 +1,10 @@
+{
+  "engine": "Unicorn 2.1.4 ARM Cortex-M4",
+  "status": "0x600d",
+  "lvgl_pool_bytes": 7056,
+  "lvgl_free_bytes": 4888,
+  "lvgl_max_used_bytes": 2508,
+  "rendered_frames": 40,
+  "gui_math_test_stack_bytes_observed": 1924,
+  "scope": "40 GUI refreshes, 16 dq transform checks and 100 saturation iterations; no peripheral or CPU timing simulation"
+}

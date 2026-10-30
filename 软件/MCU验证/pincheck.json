@@ -1,0 +1,23 @@
+{
+  "pins_checked": 52,
+  "free_gpio": 0,
+  "pwm_hz": 20000.0,
+  "adc_hz": 42500000.0,
+  "two_rank_dual_adc_us": 1.7411764705882353,
+  "ideal_common_low_window_us_at_max_92_percent_duty": 3.9999999999999982,
+  "trigger_before_peak_us": 1.0,
+  "assumed_edge_guard_us": 1.0,
+  "adc_irq_period_us": 50,
+  "target_worst_adc_isr_us": 30,
+  "dma_plan": {
+    "DMA1_CH1": "SPI1_RX",
+    "DMA1_CH2": "SPI1_TX",
+    "DMA1_CH3": "SPI3_RX",
+    "DMA1_CH4": "SPI3_TX",
+    "DMA1_CH5": "I2C1_TX",
+    "DMA1_CH6": "USART3_RX",
+    "DMA2_CH1": "USART3_TX",
+    "DMA2_CH2": "TIM4_CH1"
+  },
+  "scope": "Pin AF/ADC availability and analytical timing only. Analog settling, timer sync skew, DMA/IRQ arbitration and ISR timing require bench verification."
+}

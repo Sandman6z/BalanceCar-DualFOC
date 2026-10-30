@@ -1,0 +1,22 @@
+{
+  "flash_used_bytes": 93512,
+  "flash_program_limit_bytes": 129024,
+  "flash_parameter_reserved_bytes": 2048,
+  "flash_program_free_bytes": 35512,
+  "ram_used_with_reservations_bytes": 20248,
+  "ram_free_outside_reservations_bytes": 12520,
+  "monochrome_font": "probe_font_12: thresholded 1-bit Montserrat, ASCII/symbols only",
+  "compiler": "arm-none-eabi-gcc.EXE (GNU Tools for STM32 13.3.rel1.20240926-1715) 13.3.1 20240614",
+  "cube": "1.6.3",
+  "lvgl": "9.2.2",
+  "compiled_sources": 263,
+  "elf_sha256": "0064e5c0a57481f52b1b1ca5fc6b366d7722303f4e60780214cbe42da86c9f74",
+  "size_sections": "C:\\Users\\boe\\Documents\\ChatGPT\\Balance Car\\BalanceCar-DualFOC\\\u8f6f\u4ef6\\MCU\u9a8c\u8bc1\\build\\probe.elf  :\nsection             size        addr\n.isr_vector          472   134217728\n.text              92628   134218200\n.ARM.exidx             8   134310828\n.init_array            4   134310836\n.fini_array            4   134310840\n.data                396   536870912\n.bss               15244   536871308\n.heap_stack         4608   536886552\n.ARM.attributes       48           0\n.comment              67           0\n.debug_frame         852           0\nTotal             114331\n\n\n",
+  "limitations": [
+    "Compile/link probe only",
+    "No sensor calibration, real motor control validation or OLED/USB hardware test",
+    "See emulation_result.json for GUI/math emulator checks; not target hardware high-water",
+    "4 KB stack is a reservation, not a measured peak",
+    "No complete production safety state machine or Chinese glyph set"
+  ]
+}
