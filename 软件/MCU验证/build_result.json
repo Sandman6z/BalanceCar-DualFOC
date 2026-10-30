@@ -1,8 +1,8 @@
 {
-  "flash_used_bytes": 93512,
+  "flash_used_bytes": 93536,
   "flash_program_limit_bytes": 129024,
   "flash_parameter_reserved_bytes": 2048,
-  "flash_program_free_bytes": 35512,
+  "flash_program_free_bytes": 35488,
   "ram_used_with_reservations_bytes": 20248,
   "ram_free_outside_reservations_bytes": 12520,
   "monochrome_font": "probe_font_12: thresholded 1-bit Montserrat, ASCII/symbols only",
@@ -10,8 +10,8 @@
   "cube": "1.6.3",
   "lvgl": "9.2.2",
   "compiled_sources": 263,
-  "elf_sha256": "0064e5c0a57481f52b1b1ca5fc6b366d7722303f4e60780214cbe42da86c9f74",
-  "size_sections": "C:\\Users\\boe\\Documents\\ChatGPT\\Balance Car\\BalanceCar-DualFOC\\\u8f6f\u4ef6\\MCU\u9a8c\u8bc1\\build\\probe.elf  :\nsection             size        addr\n.isr_vector          472   134217728\n.text              92628   134218200\n.ARM.exidx             8   134310828\n.init_array            4   134310836\n.fini_array            4   134310840\n.data                396   536870912\n.bss               15244   536871308\n.heap_stack         4608   536886552\n.ARM.attributes       48           0\n.comment              67           0\n.debug_frame         852           0\nTotal             114331\n\n\n",
+  "elf_sha256": "d8a0584ae4a7e0599152253e55c17b36ee1e4f48973eb9031f31bd70c18bb4b7",
+  "size_sections": "C:\\Users\\boe\\Documents\\ChatGPT\\Balance Car\\BalanceCar-DualFOC\\\u8f6f\u4ef6\\MCU\u9a8c\u8bc1\\build\\probe.elf  :\nsection             size        addr\n.isr_vector          472   134217728\n.text              92652   134218200\n.ARM.exidx             8   134310852\n.init_array            4   134310860\n.fini_array            4   134310864\n.data                396   536870912\n.bss               15244   536871308\n.heap_stack         4608   536886552\n.ARM.attributes       48           0\n.comment              67           0\n.debug_frame         852           0\nTotal             114355\n\n\n",
   "limitations": [
     "Compile/link probe only",
     "No sensor calibration, real motor control validation or OLED/USB hardware test",

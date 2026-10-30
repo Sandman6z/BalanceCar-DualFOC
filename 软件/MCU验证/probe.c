@@ -46,6 +46,8 @@ static void peripherals(void) {
     HAL_GPIO_Init(GPIOB, &g);
     HAL_GPIO_WritePin(GPIOC, GPIO_PIN_0|GPIO_PIN_1, GPIO_PIN_RESET);
     g.Pin = GPIO_PIN_0|GPIO_PIN_1; HAL_GPIO_Init(GPIOC, &g);
+    HAL_GPIO_WritePin(GPIOF, GPIO_PIN_1, GPIO_PIN_RESET);
+    g.Pin = GPIO_PIN_1; HAL_GPIO_Init(GPIOF, &g); /* ARM clock stays low; no authorization pulses. */
     __HAL_RCC_ADC12_CLK_ENABLE(); __HAL_RCC_TIM1_CLK_ENABLE(); __HAL_RCC_TIM8_CLK_ENABLE();
     __HAL_RCC_TIM4_CLK_ENABLE(); __HAL_RCC_TIM17_CLK_ENABLE();
     __HAL_RCC_SPI1_CLK_ENABLE(); __HAL_RCC_SPI3_CLK_ENABLE();
@@ -99,7 +101,7 @@ static void peripherals(void) {
         spi[i].Instance = i ? SPI3 : SPI1; spi[i].Init.Mode = SPI_MODE_MASTER;
         spi[i].Init.Direction = SPI_DIRECTION_2LINES; spi[i].Init.DataSize = SPI_DATASIZE_8BIT;
         spi[i].Init.CLKPolarity = SPI_POLARITY_LOW; spi[i].Init.CLKPhase = SPI_PHASE_2EDGE;
-        spi[i].Init.NSS = SPI_NSS_SOFT; spi[i].Init.BaudRatePrescaler = SPI_BAUDRATEPRESCALER_32;
+        spi[i].Init.NSS = SPI_NSS_SOFT; spi[i].Init.BaudRatePrescaler = i ? SPI_BAUDRATEPRESCALER_128 : SPI_BAUDRATEPRESCALER_32;
         spi[i].Init.FirstBit = SPI_FIRSTBIT_MSB;
         if (HAL_SPI_Init(&spi[i]) != HAL_OK) Error_Handler();
     }

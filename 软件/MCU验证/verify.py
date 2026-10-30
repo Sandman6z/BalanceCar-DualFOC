@@ -15,6 +15,8 @@ assert set(x['pin'] for x in rows)=={p for p,x in pins.items() if x.attrib.get('
 by_role={r['role']:r for r in rows}
 assert by_role['CHARGE_EN']['pin']=='PB8' # Boot pin must be held low, not an I2C pull-up.
 assert by_role['NRST']['pin']=='PG10'
+assert by_role['PWM_ARM_CLOCK']['pin']=='PF1' and by_role['PWM_ARM_CLOCK']['signal']=='GPIO_Output'
+assert 'CHARGE_BAT_STAT_LEVEL_SHIFTED' not in by_role
 for side in ['L','R']:
  for phase in ['A','B']:assert by_role['CURRENT_'+side+'_'+phase]['signal'].startswith('ADC')
 dma_header=Path.home()/'STM32Cube/Repository/STM32Cube_FW_G4_V1.6.3/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h'
