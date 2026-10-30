@@ -69,6 +69,36 @@ for inh in [False,True]:
 gh,gl=(True and False),(True and not False)
 assert (gh,gl)==(False,True) # Datasheet counterexample to PWM-low == all-gates-off.
 logic={'tests':'startup, explicit arming, fault, no automatic recovery, explicit re-arm, reset, VM loss/recovery and 3PWM Hi-Z truth table passed','candidate_parts':['SN74LVC2G74 (one D flip-flop)','SN74LVC1G11 (3-input AND)','TLV3011B or equivalent open-drain VM-valid monitor (not finalized)'],'scope':'Ideal Boolean behavior only; release/recovery timing, reset ramps, leakage and PCB propagation require validation.'}
+
+# Charging policy model: fixed 0.5 A battery current, +/-10% corner; no driver implementation.
+def charge_budget(esp_a, vbus=4.6, eta=.8):
+ # No routine beep while charging; fault/full beep follows CHG_EN=0.
+ charger_vin=vbus-.100 # assumed common input protection drop
+ esp_vin=charger_vin-1.5*.150-.100 # MUX peak-drop allocation and core-path wiring
+ assert esp_vin>3.3 and charger_vin>=4.5
+ core_usb_a=base+4*.060+.015+3.3*esp_a/(esp_vin*eta)
+ return core_usb_a+12.6*.55/(charger_vin*eta)+.100 # reserve for auxiliary current/transients
+
+def charge_permission(source_a, vbus, extension_state, source_confirmed, path_verified,
+                      motor_off=True, battery_ok=True, temperature_ok=True):
+ if not source_confirmed:return False,'source capacity unconfirmed'
+ if not path_verified:return False,'power path not validated'
+ if not motor_off or not battery_ok or not temperature_ok:return False,'interlock'
+ if vbus<4.8:return False,'VBUS below provisional enable threshold'
+ if extension_state not in ['confirmed_absent','quiet_confirmed']:return False,'extension load unconfirmed'
+ esp=.3 if extension_state=='quiet_confirmed' else 0
+ if source_a<3 or charge_budget(esp)>source_a:return False,'insufficient current budget'
+ return True,'manual request may proceed after all checks'
+assert not charge_permission(1.5,5,'confirmed_absent',True,True)[0]
+assert not charge_permission(3,5,'unknown',True,True)[0]
+assert not charge_permission(3,5,'quiet_confirmed',False,True)[0]
+assert not charge_permission(3,5,'quiet_confirmed',True,False)[0]
+assert not charge_permission(3,5,'quiet_confirmed',True,True,motor_off=False)[0]
+assert not charge_permission(3,4.7,'quiet_confirmed',True,True)[0]
+assert charge_permission(3,5,'quiet_confirmed',True,True)[0]
+assert charge_budget(1)>3 and charge_budget(.3)<3
+usb['fixed_0V5A_charge_policy']={'status':'ideal decision logic checked; not implemented or board tested','min_confirmed_source_A':3,'provisional_enable_VBUS_V':4.8,'provisional_disable_VBUS_V':4.6,'quiet_ESP_3V3_allocation_A':.3,'worst_budget_VBUS_V':4.6,'quiet_case_USB_A_with_margin':charge_budget(.3),'heavy_ESP1A_USB_A_with_margin':charge_budget(1),'ordinary_beep_while_charging':False,'source_capacity_confirmation':'new confirmation on every USB connection; voltage alone does not prove source current capability'}
+
 result={'status':'desk audit; open hardware items remain','ldo_candidate_status':{'ME6211C33M5G-N':'500mA nominal; V22 lacks SOT23-5 thermal rating; not rejected by SOT23-3 data','ME6217C33M5G':'800mA nominal; 1W applies only to SOT89-5; M5 thermal rating missing'},'ldo':thermal,'usb':usb,'buck':buck,'current_sense':shunt,'spi':spi,'regen':regen,'fault_latch':logic,'open_items':['CW1244ALBS complete parameter B data and pin/peripheral details','Exact battery and motor electrical parameters','OLED module and WS2812 variant','USB power authorization and low-power startup with extension attached','Core latch/MUX and high-side switch schematic','Brake startup/energy and thermal waveforms','All physical measurements']}
 (root/'验证结果.json').write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf-8')
 print(json.dumps(result,ensure_ascii=False,indent=2))

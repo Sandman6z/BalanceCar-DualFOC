@@ -131,6 +131,24 @@
       "pages": 10,
       "sha256": "fa5da3a17123585b4e30e5a03b389a659cf028f6cef5bf8d08e52c1169b7fb90",
       "note": "manufacturer-authored PDF linked from exact user-provided product; thermal table visually inspected"
+    },
+    {
+      "name": "tps62823",
+      "url": "https://www.ti.com/lit/ds/symlink/tps62823.pdf",
+      "pages": 32,
+      "sha256": "47217a4e3b559423e2962d2a5c51b62e4d47de22c3bb04184c2ceff8c03b2b60"
+    },
+    {
+      "name": "sn74lv1t125",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74lv1t125.pdf",
+      "pages": 26,
+      "sha256": "17c3db37ec5c91981d7b0f6746ccb7529cbee0f8e3470e7668e98a9caa093126"
     }
-  ]
+  ],
+  "procurement_status": {
+    "TPS62822DLCR": "electrical candidate only; current small-quantity price/stock not verified",
+    "TPS62823DLCR": "electrical candidate only; current small-quantity price/stock not verified",
+    "AP63203WU-7": "not admitted as a candidate in this round: datasheet request returned 403; price/stock not verified",
+    "SN74LV1T125DBVR": "electrical comparison candidate; price/stock not verified"
+  }
 }

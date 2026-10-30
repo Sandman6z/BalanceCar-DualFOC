@@ -29,7 +29,19 @@
     "heavy_4V75_total_USB_A": 3.2531052631578947,
     "available_battery_charge_A_with_1V5A_source_and_1A_core": 0.16865079365079366,
     "IP2326_RISET_ohms_for_0V5A": 180000.0,
-    "note": "Do not multiply battery-side charge current by 3 or equate it with USB current. Input-current limiting must cover both branches."
+    "note": "Do not multiply battery-side charge current by 3 or equate it with USB current. Input-current limiting must cover both branches.",
+    "fixed_0V5A_charge_policy": {
+      "status": "ideal decision logic checked; not implemented or board tested",
+      "min_confirmed_source_A": 3,
+      "provisional_enable_VBUS_V": 4.8,
+      "provisional_disable_VBUS_V": 4.6,
+      "quiet_ESP_3V3_allocation_A": 0.3,
+      "worst_budget_VBUS_V": 4.6,
+      "quiet_case_USB_A_with_margin": 2.7824071856287427,
+      "heavy_ESP1A_USB_A_with_margin": 3.4740239520958083,
+      "ordinary_beep_while_charging": false,
+      "source_capacity_confirmation": "new confirmation on every USB connection; voltage alone does not prove source current capability"
+    }
   },
   "buck": {
     "TPS563201_extension_input_example_V": 4.425000000000001,

@@ -17,17 +17,18 @@ assert by_role['CHARGE_EN']['pin']=='PB8' # Boot pin must be held low, not an I2
 assert by_role['NRST']['pin']=='PG10'
 assert by_role['PWM_ARM_CLOCK']['pin']=='PF1' and by_role['PWM_ARM_CLOCK']['signal']=='GPIO_Output'
 assert 'CHARGE_BAT_STAT_LEVEL_SHIFTED' not in by_role
+assert by_role['VBUS_ADC']['pin']=='PC2' and by_role['VBUS_ADC']['signal']=='ADC1_IN8'
 for side in ['L','R']:
  for phase in ['A','B']:assert by_role['CURRENT_'+side+'_'+phase]['signal'].startswith('ADC')
 dma_header=Path.home()/'STM32Cube/Repository/STM32Cube_FW_G4_V1.6.3/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h'
 if dma_header.exists():
  text=dma_header.read_text(encoding='utf-8')
- for request in ['SPI1_RX','SPI1_TX','SPI3_RX','SPI3_TX','I2C1_TX','USART3_RX','USART3_TX','TIM4_CH1']:
+ for request in ['SPI1_RX','SPI1_TX','SPI3_RX','SPI3_TX','I2C1_TX','USART3_RX','USART3_TX','TIM4_CH1','ADC1']:
   assert 'DMA_REQUEST_'+request in text,request
 pwm_hz=170e6/(2*4250)
 adc_hz=170e6/4
 sequence_us=2*(24.5+12.5)/adc_hz*1e6
 window_us=(1-0.92)/pwm_hz*1e6
 assert pwm_hz==20000 and sequence_us+2.0<window_us
-report={'pins_checked':len(rows),'free_gpio':0,'pwm_hz':pwm_hz,'adc_hz':adc_hz,'two_rank_dual_adc_us':sequence_us,'ideal_common_low_window_us_at_max_92_percent_duty':window_us,'trigger_before_peak_us':1.0,'assumed_edge_guard_us':1.0,'adc_irq_period_us':50,'target_worst_adc_isr_us':30,'dma_plan':{'DMA1_CH1':'SPI1_RX','DMA1_CH2':'SPI1_TX','DMA1_CH3':'SPI3_RX','DMA1_CH4':'SPI3_TX','DMA1_CH5':'I2C1_TX','DMA1_CH6':'USART3_RX','DMA2_CH1':'USART3_TX','DMA2_CH2':'TIM4_CH1'},'scope':'Pin AF/ADC availability and analytical timing only. Analog settling, timer sync skew, DMA/IRQ arbitration and ISR timing require bench verification.'}
+report={'pins_checked':len(rows),'free_gpio':0,'pwm_hz':pwm_hz,'adc_hz':adc_hz,'two_rank_dual_adc_us':sequence_us,'ideal_common_low_window_us_at_max_92_percent_duty':window_us,'trigger_before_peak_us':1.0,'assumed_edge_guard_us':1.0,'adc_irq_period_us':50,'target_worst_adc_isr_us':30,'dma_plan':{'DMA1_CH1':'SPI1_RX','DMA1_CH2':'SPI1_TX','DMA1_CH3':'SPI3_RX','DMA1_CH4':'SPI3_TX','DMA1_CH5':'I2C1_TX','DMA1_CH6':'USART3_RX','DMA2_CH1':'USART3_TX','DMA2_CH2':'TIM4_CH1','DMA2_CH3':'ADC1_regular'},'scope':'Pin AF/ADC availability and analytical timing only. Analog settling, timer sync skew, DMA/IRQ arbitration and ISR timing require bench verification.'}
 (root/'pincheck.json').write_text(json.dumps(report,indent=2));print(json.dumps(report,indent=2))

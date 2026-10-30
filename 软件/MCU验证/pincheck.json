@@ -17,7 +17,8 @@
     "DMA1_CH5": "I2C1_TX",
     "DMA1_CH6": "USART3_RX",
     "DMA2_CH1": "USART3_TX",
-    "DMA2_CH2": "TIM4_CH1"
+    "DMA2_CH2": "TIM4_CH1",
+    "DMA2_CH3": "ADC1_regular"
   },
   "scope": "Pin AF/ADC availability and analytical timing only. Analog settling, timer sync skew, DMA/IRQ arbitration and ISR timing require bench verification."
 }
