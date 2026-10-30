@@ -1,5 +1,9 @@
 {
   "status": "desk audit; open hardware items remain",
+  "ldo_candidate_status": {
+    "ME6211C33M5G-N": "500mA nominal; V22 lacks SOT23-5 thermal rating; not rejected by SOT23-3 data",
+    "ME6217C33M5G": "800mA nominal; 1W applies only to SOT89-5; M5 thermal rating missing"
+  },
   "ldo": {
     "allocations_3v3_A": {
       "mcu": 0.1,
@@ -13,10 +17,10 @@
     "buzzer_on_average_A": 0.30600000000000005,
     "resistive_buzzer_peak_upper_bound_A": 0.25384615384615383,
     "total_peak_allocation_A": 0.45984615384615385,
-    "ME6211_SOT23_listed_limit_W": 0.3,
+    "legacy_ME6211_V14_generic_SOT23_limit_W_not_an_M5N_rating": 0.3,
     "LDO_average_W": 0.5202000000000001,
     "LDO_peak_W_not_continuous_rating": 0.7817384615384616,
-    "ME6211_5V_to_3V3_absolute_ceiling_A_before_derating": 0.17647058823529413
+    "legacy_300mW_example_current_A_not_an_M5N_limit": 0.17647058823529413
   },
   "usb": {
     "baseline_5V_rail_A": 0.9492352941176471,

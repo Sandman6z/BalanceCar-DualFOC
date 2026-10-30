@@ -115,6 +115,22 @@
       "sha256": "cad7b152849801447490259599ae6421b27c1c69d11773249c2304c90352e1fc",
       "version": "V1.11",
       "note": "manufacturer-authored PDF distributed by M5Stack; already cached before this audit"
+    },
+    {
+      "name": "me6211n-exact",
+      "url": "https://atta.szlcsc.com/upload/public/pdf/source/20260922/E09393D8C99FBF717FF626B0B8E00241.pdf",
+      "version": "V22",
+      "pages": 23,
+      "sha256": "a805a4df88c79199e94f0f07a7a37b9348582a9d077ff4e7a8b9a8c73ba9d23a",
+      "note": "manufacturer-authored PDF linked from exact user-provided product; thermal table visually inspected"
+    },
+    {
+      "name": "me6217-exact",
+      "url": "https://atta.szlcsc.com/upload/public/pdf/source/20190910/C427602_D4B9162A2E9D9EF57C60010DFDECEF37.pdf",
+      "version": "V02",
+      "pages": 10,
+      "sha256": "fa5da3a17123585b4e30e5a03b389a659cf028f6cef5bf8d08e52c1169b7fb90",
+      "note": "manufacturer-authored PDF linked from exact user-provided product; thermal table visually inspected"
     }
   ]
 }

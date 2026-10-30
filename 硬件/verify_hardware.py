@@ -7,7 +7,7 @@ loads={'mcu':0.100,'encoders':0.030,'imu':0.005,'oled':0.050,'misc':0.015,'drv_v
 base=sum(loads.values());avg=base+0.100;peak=base+3.3/13
 ldo_power=(5-3.3)*avg;ldo_peak=(5-3.3)*peak
 assert (5-3.3)*0.2>0.300
-thermal={'allocations_3v3_A':loads,'base_A':base,'buzzer_on_average_A':avg,'resistive_buzzer_peak_upper_bound_A':3.3/13,'total_peak_allocation_A':peak,'ME6211_SOT23_listed_limit_W':0.300,'LDO_average_W':ldo_power,'LDO_peak_W_not_continuous_rating':ldo_peak,'ME6211_5V_to_3V3_absolute_ceiling_A_before_derating':0.300/1.7}
+thermal={'allocations_3v3_A':loads,'base_A':base,'buzzer_on_average_A':avg,'resistive_buzzer_peak_upper_bound_A':3.3/13,'total_peak_allocation_A':peak,'legacy_ME6211_V14_generic_SOT23_limit_W_not_an_M5N_rating':0.300,'LDO_average_W':ldo_power,'LDO_peak_W_not_continuous_rating':ldo_peak,'legacy_300mW_example_current_A_not_an_M5N_limit':0.300/1.7}
 # 5 V source power: conservative WS2812 allocation; ESP supply scenarios are allocations.
 rail5=avg+4*.060+3.3*.5/(5*.85)+.015
 rail5_heavy=avg+4*.060+3.3*1/(4.75*.8)+.015
@@ -69,6 +69,6 @@ for inh in [False,True]:
 gh,gl=(True and False),(True and not False)
 assert (gh,gl)==(False,True) # Datasheet counterexample to PWM-low == all-gates-off.
 logic={'tests':'startup, explicit arming, fault, no automatic recovery, explicit re-arm, reset, VM loss/recovery and 3PWM Hi-Z truth table passed','candidate_parts':['SN74LVC2G74 (one D flip-flop)','SN74LVC1G11 (3-input AND)','TLV3011B or equivalent open-drain VM-valid monitor (not finalized)'],'scope':'Ideal Boolean behavior only; release/recovery timing, reset ramps, leakage and PCB propagation require validation.'}
-result={'status':'desk audit; open hardware items remain','ldo':thermal,'usb':usb,'buck':buck,'current_sense':shunt,'spi':spi,'regen':regen,'fault_latch':logic,'open_items':['CW1244ALBS complete parameter B data and pin/peripheral details','Exact battery and motor electrical parameters','OLED module and WS2812 variant','USB power authorization and low-power startup with extension attached','Core latch/MUX and high-side switch schematic','Brake startup/energy and thermal waveforms','All physical measurements']}
+result={'status':'desk audit; open hardware items remain','ldo_candidate_status':{'ME6211C33M5G-N':'500mA nominal; V22 lacks SOT23-5 thermal rating; not rejected by SOT23-3 data','ME6217C33M5G':'800mA nominal; 1W applies only to SOT89-5; M5 thermal rating missing'},'ldo':thermal,'usb':usb,'buck':buck,'current_sense':shunt,'spi':spi,'regen':regen,'fault_latch':logic,'open_items':['CW1244ALBS complete parameter B data and pin/peripheral details','Exact battery and motor electrical parameters','OLED module and WS2812 variant','USB power authorization and low-power startup with extension attached','Core latch/MUX and high-side switch schematic','Brake startup/energy and thermal waveforms','All physical measurements']}
 (root/'验证结果.json').write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf-8')
 print(json.dumps(result,ensure_ascii=False,indent=2))
