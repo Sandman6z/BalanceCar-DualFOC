@@ -209,6 +209,13 @@
       "url": "https://atta.szlcsc.com/upload/public/pdf/source/20250225/3BE266C6036DE3F643EC29FEF7C979D5.pdf",
       "sha256": "d65b95932e12f650ce540a28e5a35d422c8698d31c8d5eb51e643276e2e5eef8",
       "note": "Exact product-linked manufacturer PDF; ratings and pulse graphs visually inspected, repeat-pulse application not qualified"
+    },
+    {
+      "name": "ap101",
+      "url": "https://atta.szlcsc.com/upload/public/pdf/source/20210606/6D8CC6B67B385B7F47A9AF9CF2F81DE9.pdf",
+      "sha256": "5578a49fb742839f46778e89b25595e82e0b5d3c50914bde3c222f9db30aab0a",
+      "pages": 2,
+      "note": "Exact product linked manufacturer datasheet; no repetitive pulse qualification"
     }
   ],
   "procurement_status": {
